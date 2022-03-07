@@ -23,7 +23,7 @@ function CoinsList() {
             <Binance />
             <USDCoin />
             <Ripple />
-            <TerraLuna />
+            {/* <TerraLuna />
             <Solana />
             <Cardano />
             <Avalanche2 />
@@ -31,7 +31,7 @@ function CoinsList() {
             <BinanceUSD />
             <Doge />
             <TerraUSD />
-            <ShibaInu />
+            <ShibaInu /> */}
         </>
     )
 }
