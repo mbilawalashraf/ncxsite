@@ -23,8 +23,8 @@ function CoinsList() {
             <Binance />
             <USDCoin />
             <Ripple />
-            {/* <TerraLuna />
-            <Solana />
+            <TerraLuna />
+            {/* <Solana />
             <Cardano />
             <Avalanche2 />
             <Polkadot />
