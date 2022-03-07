@@ -18,7 +18,7 @@ function Cardano() {
         <>
             {
                 data.map((item) => (
-                    <div className={styles.coin__container}>
+                    <div key={item.id} className={styles.coin__container}>
                         <div className={styles.coin__row}>
                             <div className={styles.coin__data}>
                                 <p className={styles.coin__symbol}>{item.symbol} / <span style={{color: "gray"}}>USD</span> </p>
