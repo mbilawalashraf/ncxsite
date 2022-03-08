@@ -1,9 +1,26 @@
+import Link from "next/dist/client/link"
+
 function ProductList() {
     return (
         <>
-            <h2>Product 1</h2>
-            <h2>Product 2</h2>
-            <h2>Product 3</h2>
+            <Link href='/'>
+                <a>Home</a>
+            </Link>
+            <h2>
+                <Link href='/product/1'>
+                    Product 1    
+                </Link>
+            </h2>
+            <h2>
+                <Link href='/product/2'>
+                    Product 2    
+                </Link>
+            </h2>
+            <h2>
+                <Link href='/product/3'>
+                    Product 3    
+                </Link>
+            </h2>
         </>
     )
 }
