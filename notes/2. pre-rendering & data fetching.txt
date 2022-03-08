@@ -1,0 +1,47 @@
+Pre-rendering 
+
+React vs Next JS:
+-By default, Next JS pre-renders every page in the application.
+
+What does pre-render mean?
+- Next JS generates HTML for each page in advance instead of having it all done by
+client-side JavaScript.
+
+Pre-render just means in advace of sending it to the browser.
+
+Pre-rendering is done by default in a Next JS app
+
+Why pre-render?
+1. Pre-render improves performance
+    - In a React app, you need to wait for the JavaScript to be executed.
+    - Perhaps fetch data from an external API and then render the UI
+    - There is a wait time for the user
+    - With a pre-rendered page, the HTML is already generated and loads
+    faster.
+
+2. Pre-rendering helps with SEO
+    - If you're building a blog or an e-commerce site, SEO is a concern.
+    - With a React app, if the search engine hits your page, it only sees
+    a div tag with id equail to root.
+    - If search engine hits pre-rendered page though, all the content is
+    present in the source code which will help index that page.
+    - if SEO is of concern for your app, pre-rendering is what you want.
+
+Summary:
+- Pre-rendering refers to the process of generating HTML with the necessary
+data for a page in our application.
+
+- Pre-rendering can result in better performance and SEO.
+
+- Next JS supports two forms of pre-rendering
+    * Static Generation
+    * Server-Side rendering
+
+Static Generation:
+- A method of pre-rendering where the HTML pages are generated at build time.
+- The HTML with all the data that makes up the content of the web page are generated in
+advance when you build your application.
+- Recommended method to pre-render pages whenever possible.
+- Page can be built once, cached by a CDN and served to the client almost instantly.
+    Ex.: Blog pages, e-commerce product pages, documentation and marketing pages.
+
