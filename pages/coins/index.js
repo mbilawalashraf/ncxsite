@@ -13,6 +13,29 @@ import BinanceUSD from "./binance-usd"
 import Doge from "./doge"
 import TerraUSD from "./terrausd"
 import ShibaInu from "./shibainu"
+import WrappedBitcoin from "./wrapped-bitcoin"
+import MaticNetwork from "./matic-network"
+import CryptopComChain from "./crypto-com-chain"
+import Dai from "./dai"
+import Cosmos from "./cosmos"
+import LightCoin from "./litecoin"
+import Near from "./near"
+import ChainLink from "./chainlink"
+import Tron from "./tron"
+import FTXToken from "./ftx-token"
+import StakedEther from "./staked-ether"
+import BitcoinCash from "./bitcoin-cash"
+import LeoToken from "./leo-token"
+import Algorand from "./algorand"
+import Okb from "./okb"
+import Stellar from "./stellar"
+import HederaGraph from "./hedera"
+import Uniswap from "./uniswap"
+import Decentraland from "./decentraland"
+import AxieInfinity from "./axie-infinity"
+import EthereumClassic from "./ethereum-classic"
+import Fantom from "./fantom"
+import InternetComputer from "./internet-computer"
 
 function CoinsList() {
     return(
@@ -24,14 +47,37 @@ function CoinsList() {
             <USDCoin />
             <Ripple />
             <TerraLuna />
-            {/* <Solana />
+            <Solana />
             <Cardano />
             <Avalanche2 />
             <Polkadot />
             <BinanceUSD />
             <Doge />
             <TerraUSD />
-            <ShibaInu /> */}
+            <ShibaInu />
+            <WrappedBitcoin />
+            <MaticNetwork />
+            <CryptopComChain />
+            <Dai />
+            <Cosmos />
+            <LightCoin />
+            <Near />
+            <ChainLink />
+            <Tron />
+            <FTXToken />
+            <StakedEther />
+            <BitcoinCash />
+            <LeoToken />
+            <Algorand />
+            <Okb />
+            <Stellar />
+            <HederaGraph />
+            <Uniswap />
+            <Decentraland />
+            <AxieInfinity />
+            <EthereumClassic />
+            <Fantom />
+            <InternetComputer />
         </>
     )
 }

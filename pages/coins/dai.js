@@ -2,11 +2,11 @@ import styles from '../../styles/Coins.module.css'
 
 import { useState, useEffect } from 'react'
 
-function Polkadot() {
+function Dai() {
     const [data, setData] = useState([])
 
     useEffect(() => {
-        fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=polkadot&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h%2C24%2C7d').then((res) => res.json()).then((data) => {
+        fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=dai&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h%2C24%2C7d').then((res) => res.json()).then((data) => {
             setData(data)
         })
         .catch((err) => {
@@ -42,5 +42,5 @@ function Polkadot() {
     )
 }
 
-export default Polkadot
+export default Dai
 
