@@ -1,0 +1,12 @@
+Link Pre-Fetching:
+
+    - Any <Link /> component in the viewport (initially or through scroll) will be prefetched by default (including the corresponding data)
+    for pages using Static Generation.
+
+    - When a page with getStaticProps is pre-rendered at build time, in addition to the page  HTML file, Next.js generates a JSON file holding the result of running getStaticProps.
+
+    - The JSON file will be used in client-side routing through next/link, or next/ router.
+
+    - When you navigate to a page that's pre-rendered using getStaticProps, Next.js fetches JSON file (pre-computed at build time) and uses it as the props to create the page component client-side.
+
+    - Client-side page transitions will not call getStaticProps as only the exported JSON is used.

@@ -28,6 +28,9 @@ function Home() {
                 <button onClick={handleClick}>
                     Place Order    
                 </button>
+                <Link href='/user'>
+                    <a>Users</a>    
+                </Link>
             </div>
         </>
     )
