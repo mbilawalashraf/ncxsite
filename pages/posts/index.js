@@ -1,32 +1,34 @@
 import Link from "next/dist/client/link";
 
-function Blog({ posts }) {
+
+function PostList({ posts }) {
     return (
         <>
             <Link href='/'>
                 <a>Home</a>    
             </Link>
-            <h1>Blog Page</h1>
+            <h1>Posts List Page</h1>
             {posts.map((post) => {
                 return (
                     <div key={post.id}>
-                        <h2>
-                            {post.id} {post.title}    
-                        </h2>    
-                        <hr />
+                        <Link href={`posts/${post.id}`} passHref>
+                            <h2>
+                                {post.id} {post.title}    
+                            </h2>   
+                        </Link> 
                     </div>
-                    
                 )
             })}
         </>
     )
 }
 
-export default Blog;
+export default PostList;
 
 export async function getStaticProps() {
     const response = await fetch('https://jsonplaceholder.typicode.com/posts')
     const data = await response.json()
+    console.log(data)
 
     return {
         props: {

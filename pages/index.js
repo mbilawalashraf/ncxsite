@@ -31,6 +31,9 @@ function Home() {
                 <Link href='/user'>
                     <a>Users</a>    
                 </Link>
+                <Link href='/posts'>
+                    <a>Posts</a>
+                </Link>
             </div>
         </>
     )
