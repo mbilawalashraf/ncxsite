@@ -1,3 +1,5 @@
+import TableHeader from "../../components/TableHeader"
+
 import Bit from "./bitcoin"
 import Eth from "./eth"
 import Tether from "./tether"
@@ -40,6 +42,7 @@ import InternetComputer from "./internet-computer"
 function CoinsList() {
     return(
         <>     
+            <TableHeader />
             <Bit />
             <Eth />
             <Tether />
