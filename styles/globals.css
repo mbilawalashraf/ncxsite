@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: avenir;
   src: url('../public/Avenir\ Light.ttf');
@@ -23,6 +27,36 @@
   src: url('../public/Poppins-SemiBold.ttf')
 }
 
+@font-face {
+  font-family: DMSansBold;
+  src: url('../public/DMSans-Bold.ttf')
+}
+
+@font-face {
+  font-family: DMSansBoldItalic;
+  src: url('../public/DMSans-BoldItalic.ttf')
+}
+
+@font-face {
+  font-family: DMSansItalic;
+  src: url('../public/DMSans-Italic.ttf')
+}
+
+@font-face {
+  font-family: DMSansMedium;
+  src: url('../public/DMSans-Medium.ttf')
+}
+
+@font-face {
+  font-family: DMSansMediumItalic;
+  src: url('../public/DMSans-MediumItalic.ttf')
+}
+
+@font-face {
+  font-family: DMSansRegular;
+  src: url('../public/DMSans-Regular.ttf')
+}
+
 html,
 body {
   background-color: #141416;
@@ -41,6 +75,102 @@ a {
   box-sizing: border-box;
   font-size: 14px;
 }
+
+/* Navigation */
+
+.main-logo{
+  border-right: 1px solid black;
+  height: 40px;
+}
+
+
+.vertical-line{
+  border-right: 1px solid;
+  height: 32px;
+  margin-top: 19px;
+}
+
+.primary-nav{
+  font-family: "DMSansRegular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.secondary-nav{
+  font-family: "DMSansRegular";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* End Navigation */
+
+/* Hero Section */
+.hero-title{
+  position: static;
+  width: 676px;
+  height: 128px;
+  left: 0px;
+  top: 100px;
+
+  font-family: 'poppinsSemiBold';
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #000000;
+
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
+.hero-content{
+  width: 509px;
+  height: 117px;
+  left: 0px;
+  top: 265px;
+  font-family: 'poppinsRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+}
+
+.mockup-pic{
+  position: static;
+  width: 808px;
+  height: 600px;
+  left: 0px;
+  top: 0px;
+
+  filter: drop-shadow(0px 10px 25px rgba(0, 0, 0, 0.25));
+
+
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 50px 0px;
+}
+
+.store-logo{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 275px;
+  height: 40px;
+  left: 0px;
+  top: 419px;
+  margin-left: -14px;
+  margin-bottom: 40px;
+}
+/* End Hero Section */
 
 .coin_app {
   display: flex;

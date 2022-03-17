@@ -6,7 +6,7 @@ function CompoundEther() {
     const [data, setData] = useState([])
 
     useEffect(() => {
-        fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=compound-ether&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h%2C24%2C7d', {mode: 'cors'}).then((res) => res.json()).then((data) => {
+        fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=compound-ether&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h%2C24%2C7d').then((res) => res.json()).then((data) => {
             setData(data)
         })
         .catch((err) => {
