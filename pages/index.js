@@ -79,6 +79,7 @@ function Home() {
                 </div>
             </nav>
             {/* End Nav Section */}
+            {/* Hero Section */}
             <div className="bg-white lg:h-full lg:py-16">
                 <div className="max-w-7xl mx-auto">
                     <div className="container flex px-6 py-32 mx-auto">
@@ -103,7 +104,7 @@ function Home() {
                                 </div>
                                 <div className="mt-6">
                                     <a href="#"
-                                        className="block px-10 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 lg:inline hover:bg-blue-400">Trade Now
+                                        className="block px-12 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 lg:inline hover:bg-blue-400">Trade Now
                                     </a>
                                 </div>
                             </div>
@@ -116,6 +117,41 @@ function Home() {
                     </div>
                 </div>
             </div>
+            {/* End Hero Section */}
+            {/* Hero Section 2 */}
+            <div className="bg-white lg:h-full lg:py-12">
+                <div className="max-w-7xl mx-auto">
+                    <div className="container flex px-6 py-32 mx-auto">
+
+                        <div className="flex items-center justify-center w-full h-96 lg:w-1/2">
+                            <img className="object-cover w-full h-full max-w-2xl rounded-md mockup-pic2"
+                                src="/mockup2.svg" alt="Mock Up Data" />
+                        </div>
+
+                        <div className="flex flex-col w-full lg:flex-row lg:w-1/2 ml-14">
+                            <div className="max-w-lg">
+                                <h1 className="hero-title2">Fast Deposit &<br />Withdrawals</h1>
+                                <p className="mt-0 hero-content2">From Visa & Mastercard to instant SEPA<br />deposits, you've got options for getting the<br />funds you need, when you need them.</p>
+                                <div className="grid grid-cols-4 store-logo2 py-4">
+                                    <div className="">
+                                        <a href="#"
+                                            className="lg:inline"><img className=""
+                                            src="/visa.svg" alt="Mock Up Data" />
+                                            
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className="mt-6">
+                                    <a href="#"
+                                        className="block px-12 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 lg:inline hover:bg-blue-400">Sign Up
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* End Hero Section 2 */}
             {/* <div>
                 <h1>Home Page</h1>
                 <Link href='/blog'>
