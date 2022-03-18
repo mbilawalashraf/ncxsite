@@ -291,12 +291,70 @@ a {
 
 .mockup-pic3{
   height: 100%;
-  width: 58vw;
+  width: 56vw;
   object-fit: cover;
   position: absolute;
   top: 0px;
 }
 /* End Hero Section3 */
+
+/* Hero Section4 */
+.mockup4header{
+  margin-left: 0px;
+  margin-right: 199.6px;
+}
+
+.mockup4_container{
+  height: 80vh;
+  position: relative;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.pic4_parent{
+  width: 70%;
+}
+
+.mockup-pic4{
+  height: 100%;
+  width: 54vw;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+}
+
+.hero-title4{
+  position: static;
+  width: 676px;
+  height: 128px;
+  left: 0px;
+  top: 100px;
+  font-family: 'poppinsSemiBold';
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #000000;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-bottom: 27px;
+}
+
+.hero-content4{
+  position: static;
+  width: 533px;
+  height: 117px;
+  left: 50px;
+  top: 266px;
+  font-family: 'poppinsRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  /* line-height: 36px; */
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}
+/* End Hero Section4 */
 
 .coin_app {
   display: flex;
