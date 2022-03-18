@@ -356,6 +356,80 @@ a {
 }
 /* End Hero Section4 */
 
+/* Footer */
+.footer_logo_header{
+  position: relative;
+}
+
+.footer_logo_header img{
+  position: absolute;
+  right: 0px;
+}
+
+.social-logos{
+  position: relative;
+  top: 60px;
+  right: 0;
+}
+
+.grid_socials{
+  position: relative;
+  top: 50px;
+}
+
+.fb_footer{
+  position: absolute;
+  right: 0px
+}
+
+.twitter_footer{
+  position: absolute;
+  right: 38px;
+}
+
+.ig_insta{
+  position: absolute;
+  right: 89px;
+}
+
+.small_links{
+  margin-top: 100px;
+}
+
+.small_links p{
+  font-family: 'poppinsRegular';
+  font-size: 12px;
+  text-align:right;
+  /* margin-top: 60px; */
+}
+
+.card_group{
+  width: 50%;
+  height: 67px;
+}
+
+.visa_card{
+  margin-right: 10px
+}
+
+.bt_card img{
+  margin: 0px;
+  width: 81%;
+}
+
+.sepa_card img{
+  height: 22px;
+}
+
+.advcash_card img {
+  height: 22px;
+}
+
+.xoo_card img{
+  height: 23px;
+}
+/* End Footer */
+
 .coin_app {
   display: flex;
   flex-direction: column;
