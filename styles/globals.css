@@ -241,6 +241,17 @@ a {
   margin-right: 0px;
 }
 
+.mockup3_container{
+  height: 80vh;
+  position: relative;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.mockup3_firstsection{  
+  width: 30%
+}
+
 .hero-title3{
   position: static;
   width: 676px;
@@ -272,21 +283,18 @@ a {
   margin-bottom: 27px;
 }
 
-.mockup-pic{
-  position: static;
-  width: 808px;
-  height: 600px;
-  left: 0px;
+.pick3_parent{
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 70%;
+}
+
+.mockup-pic3{
+  height: 100%;
+  width: 58vw;
+  object-fit: cover;
+  position: absolute;
   top: 0px;
-
-  filter: drop-shadow(0px 10px 25px rgba(0, 0, 0, 0.25));
-
-
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 50px 0px;
 }
 /* End Hero Section3 */
 

@@ -86,7 +86,7 @@ function Home() {
                         <div className="flex flex-col w-full lg:flex-row lg:w-1/2">
                             <div className="max-w-lg">
                                 <h1 className="hero-title">Global WEB 3.0<br />Cryptocurrency Exchange</h1>
-                                <p className="mt-0 hero-content">Buy, Sell  Trade over 100+ cryptocurrencies on NCX<br />Fast, Safe  Secure </p>
+                                <p className="mt-0 hero-content">Buy, Sell  Trade over 100+ cryptocurrencies on NCX<br />Fast, Safe & Secure </p>
                                 <div className="grid grid-cols-4 store-logo">
                                     <div className="">
                                         <a href="#"
@@ -130,8 +130,8 @@ function Home() {
 
                         <div className="flex flex-col w-full lg:flex-row lg:w-1/2 ml-14">
                             <div className="max-w-lg">
-                                <h1 className="hero-title2">Fast Deposit <br />Withdrawals</h1>
-                                <p className="mt-0 hero-content2">From Visa  Mastercard to instant SEPA<br />deposits, youve got options for getting the<br />funds you need, when you need them.</p>
+                                <h1 className="hero-title2">Fast Deposit &<br />Withdrawals</h1>
+                                <p className="mt-0 hero-content2">From Visa & Mastercard to instant SEPA<br />deposits, youve got options for getting the<br />funds you need, when you need them.</p>
                                 <div className="grid grid-cols-4 store-logo2 py-4">
                                     <div className="">
                                         <a href="#"
@@ -155,8 +155,8 @@ function Home() {
             {/* Hero Section 3 */}
             <div className="bg-white lg:h-full lg:py-16">
                 <div className="mockup3header">
-                    <div className="container flex px-6 py-32 mx-auto">
-                        <div className="flex flex-col w-full lg:flex-row lg:w-1/2">
+                    <div className="container flex px-6 py-32 mx-auto mockup3_container">
+                        <div className="flex flex-col w-full lg:flex-row mockup3_firstsection">
                             <div className="max-w-lg">
                                 <h1 className="hero-title3">Your Security.<br />Our Priority.</h1>
                                 <p className="mt-0 hero-content3">SSL Encryption<br />Two-step Verification<br />Security  Penetration Tests<br />Instant KYC</p>
@@ -183,8 +183,8 @@ function Home() {
                             </div>
                         </div>
 
-                        <div className="flex items-center justify-center w-full h-96 lg:w-1/2">
-                            <img className="object-cover w-full h-full max-w-2xl rounded-md mockup-pic3"
+                        <div className="flex items-center justify-center w-full h-96 pic3_parent">
+                            <img className="object-cover w-full h-full rounded-md mockup-pic3"
                                 src="/mockup3.svg" alt="Mock Up Data" />
                         </div>
                     </div>
