@@ -428,6 +428,10 @@ a {
 .xoo_card img{
   height: 23px;
 }
+
+footer p{
+  font-family: 'poppinsRegular';
+}
 /* End Footer */
 
 .coin_app {
