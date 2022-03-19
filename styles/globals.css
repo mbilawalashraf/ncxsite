@@ -332,7 +332,7 @@ a {
 }
 
 .pic4_parent{
-  width: 70%;
+  width: 50%;
 }
 
 .mockup-pic4{
@@ -346,18 +346,28 @@ a {
 
 .hero-title4{
   position: static;
-  width: 676px;
-  height: 128px;
+  width: 750px;
+  height: 192px;
   left: 0px;
-  top: 100px;
+  top: 110px;
   font-family: 'poppinsSemiBold';
   font-style: normal;
   font-weight: 600;
+  font-size: 52px;
+  line-height: 64px;
+  /* or 123% */
+  
   letter-spacing: 0.02em;
+  
   color: #000000;
-  font-size: 2.5rem;
-  line-height: 3rem;
-  margin-bottom: 27px;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 37px 0px;
 }
 
 .hero-content4{
@@ -370,9 +380,9 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  /* line-height: 36px; */
+  line-height: 36px;
   letter-spacing: 0.02em;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 /* End Hero Section4 */
 
