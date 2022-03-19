@@ -1,3 +1,34 @@
+.hero1_title{
+    position: static;
+    width: 676px;
+    height: 99px;
+    left: 0px;
+    top: 100px;
+    font-family: 'poppinsSemiBold';
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: #000000;
+    font-size: 49px;
+}
+
+.hero1_p{
+    width: 529px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'poppinsRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 24px;
+    /* or 92% */
+
+
+    color: #000000;
+}
+
 .steps_title{
     position: static;
     height: 54px;

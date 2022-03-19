@@ -15,7 +15,8 @@ function Landing() {
                     <div className="container flex px-6 py-32 mx-auto">
                         <div className="flex flex-col w-full lg:flex-row h1_parent">
                             <div className="max-w-lg">
-                                <h1 className="hero-title">Buy Crypto</h1>
+                                <h1 className={styles.hero1_title}>Buy Crypto</h1>
+                                <p className={styles.hero1_p}>Buy, sell, trade and hold 200+<br />cryptocurrencies on NCX</p>
                                 <div className="mt-6">
                                     <a href="#"
                                         className="block px-12 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 lg:inline hover:bg-blue-400">Get Started 
