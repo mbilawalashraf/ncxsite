@@ -22,7 +22,7 @@ function Home() {
             </Head>
             {/* Nav Section */}
             <nav className="bg-white shadow-lg main-nav">
-                <div className="max-w-7xl mx-auto px-4">
+                <div className="max-w-screen-xl mx-auto px-4">
                     <div className="flex justify-between">
                         <div className="flex space-x-7">
                             <div>
@@ -74,7 +74,7 @@ function Home() {
                                 >
                                 <a
                                     href=""
-                                    className="py-2 px-5 font-medium text-white bg-blue-500"
+                                    className="py-2 px-5 font-medium text-white bg-blue-500 border-2 border-blue-500"
                                     >Sign In</a
                                 >
                             </div>
@@ -84,9 +84,9 @@ function Home() {
             {/* End Nav Section */}
             {/* Hero Section */}
             <div className="bg-white lg:h-full lg:py-16">
-                <div className="max-w-7xl mx-auto">
+                <div className="max-w-screen-xl mx-auto">
                     <div className="container flex px-6 py-32 mx-auto">
-                        <div className="flex flex-col w-full lg:flex-row lg:w-1/2">
+                        <div className="flex flex-col w-full lg:flex-row h1_parent">
                             <div className="max-w-lg">
                                 <h1 className="hero-title">Global WEB 3.0<br />Cryptocurrency Exchange</h1>
                                 <p className="mt-0 hero-content">Buy, Sell  Trade over 100+ cryptocurrencies on NCX<br />Fast, Safe & Secure </p>
@@ -113,7 +113,7 @@ function Home() {
                             </div>
                         </div>
 
-                        <div className="flex items-center justify-center w-full h-96 lg:w-1/2">
+                        <div className="flex items-center justify-center w-full h-96 mock_parent">
                             <img className="object-cover w-full h-full max-w-2xl rounded-md mockup-pic"
                                 src="/mockup.png" alt="Mock Up Data" />
                         </div>
@@ -123,15 +123,15 @@ function Home() {
             {/* End Hero Section */}
             {/* Hero Section 2 */}
             <div className="bg-white lg:h-full lg:py-12">
-                <div className="max-w-7xl mx-auto">
+                <div className="max-w-screen-xl mx-auto">
                     <div className="container flex px-6 py-32 mx-auto">
 
-                        <div className="flex items-center justify-center w-full h-96 lg:w-1/2">
-                            <img className="object-cover w-full h-full max-w-2xl rounded-md mockup-pic2"
+                        <div className="flex items-center justify-center w-full h-96 mockup_parent2">
+                            <img className="object-cover w-full h-full rounded-md mockup-pic2"
                                 src="/mockup2.png" alt="Mock Up Data" />
                         </div>
 
-                        <div className="flex flex-col w-full lg:flex-row lg:w-1/2 ml-14">
+                        <div className="flex flex-col w-full lg:flex-row lg:w-1/2 ml-14 ">
                             <div className="max-w-lg">
                                 <h1 className="hero-title2">Fast Deposit &<br />Withdrawals</h1>
                                 <p className="mt-0 hero-content2">From Visa & Mastercard to instant SEPA<br />deposits, youve got options for getting the<br />funds you need, when you need them.</p>
@@ -144,7 +144,7 @@ function Home() {
                                         </a>
                                     </div>
                                 </div>
-                                <div className="mt-6">
+                                <div style={{marginTop: 4.5 + 'rem'}}>
                                     <a href="#"
                                         className="block px-12 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 lg:inline hover:bg-blue-400">Sign Up
                                     </a>

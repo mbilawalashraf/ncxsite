@@ -91,7 +91,7 @@ a {
 }
 
 .primary-nav{
-  font-family: "DMSansRegular";
+  font-family: "DMSansBold";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -109,34 +109,43 @@ a {
 /* End Navigation */
 
 /* Hero Section */
+.h1_parent{
+  width: 60%
+}
+
 .hero-title{
   position: static;
   width: 676px;
   height: 128px;
   left: 0px;
   top: 100px;
-
   font-family: 'poppinsSemiBold';
   font-style: normal;
   font-weight: 600;
   letter-spacing: 0.02em;
   color: #000000;
-
-  font-size: 2.5rem;
-  line-height: 3rem;
+  font-size: 49px;
+  line-height: 64px;
+  margin-bottom: 35px;
 }
 
 .hero-content{
-  width: 509px;
+  width: 673px;
   height: 117px;
   left: 0px;
   top: 265px;
   font-family: 'poppinsRegular';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 36px;
+  /* or 164% */
+  
   letter-spacing: 0.02em;
+}
+
+.mock_parent{
+  width: 40%;
 }
 
 .mockup-pic{
@@ -168,57 +177,57 @@ a {
   left: 0px;
   top: 419px;
   margin-left: -14px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 /* End Hero Section */
 
 /* Hero Section 2 */
+.mockup_parent2{
+  position: relative;
+  width: 60%
+}
+
 .mockup-pic2{
-  position: static;
   width: 749px;
-  height: 500px;
-  left: 0px;
-  top: 0px;
-  
+  height: 639px;
   filter: drop-shadow(0px 10px 25px rgba(0, 0, 0, 0.25));
-  
-  /* Inside auto layout */
-  
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 50px;
+  position: absolute;
 }
 
 .hero-title2{
-  position: static;
-  width: 676px;
-  height: 128px;
-  left: 0px;
-  top: 100px;
-
   font-family: 'poppinsSemiBold';
-  font-style: normal;
+  position: static;
+  width: 673px;
+  height: 129px;
+  left: 50px;
+  top: 100px;
   font-weight: 600;
+  font-size: 52px;
+  line-height: 64px;
   letter-spacing: 0.02em;
   color: #000000;
-
-  font-size: 2.5rem;
-  /* line-height: 3rem; */
+  margin-bottom: 26px;
 }
 
 .hero-content2{
-  position: static;
-  width: 533px;
-  height: 117px;
-  left: 50px;
-  top: 266px;
   font-family: 'poppinsRegular';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.02em;
+  position: static;
+  width: 533px;
+  height: 117px;
+  left: 50px;
+  top: 266px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 25px 0px;
 }
 
 .store-logo2{
@@ -237,12 +246,12 @@ a {
 
 /* Hero Section 3 */
 .mockup3header{
-  margin-left: 199.600px;
+  margin-left: 119.600px;
   margin-right: 0px;
 }
 
 .mockup3_container{
-  height: 80vh;
+  height: 85vh;
   position: relative;
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -254,19 +263,21 @@ a {
 
 .hero-title3{
   position: static;
-  width: 676px;
-  height: 110px;
+  width: 673px;
+  height: 128px;
   left: 0px;
   top: 100px;
 
   font-family: 'poppinsSemiBold';
   font-style: normal;
   font-weight: 600;
+  font-size: 52px;
+  line-height: 64px;
+  /* or 123% */
+  
   letter-spacing: 0.02em;
+  margin-bottom: 30px;
   color: #000000;
-
-  font-size: 2.5rem;
-  line-height: 3rem;
 }
 
 .hero-content3{
@@ -280,7 +291,7 @@ a {
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.02em;
-  margin-bottom: 27px;
+  margin-bottom: 30px;
 }
 
 .pick3_parent{
@@ -291,7 +302,7 @@ a {
 
 .mockup-pic3{
   height: 100%;
-  width: 56vw;
+  width: 63vw;
   object-fit: cover;
   position: absolute;
   top: 0px;
@@ -301,7 +312,7 @@ a {
 /* Hero Section4 */
 .mockup4header{
   margin-left: 0px;
-  margin-right: 199.6px;
+  margin-right: 119.6px;
 }
 
 .mockup4_container{
@@ -309,6 +320,15 @@ a {
   position: relative;
   padding-top: 4rem;
   padding-bottom: 4rem;
+  left: 0px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 37px 0px;
 }
 
 .pic4_parent{
