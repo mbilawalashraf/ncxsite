@@ -1,0 +1,108 @@
+.steps_title{
+    position: static;
+    height: 54px;
+    left: 0px;
+    top: 20px;
+    
+    font-family: 'poppinsRegular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 54px;
+    /* identical to box height, or 104% */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.steps_background{
+    align-items: center;
+    background-color: #f2f3f7;
+    border-radius: 50%;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    width: 70px;
+    margin: auto;
+}
+
+.steps_h1{
+    position: static;
+width: 300px;
+height: 45px;
+left: 20px;
+top: 150px;
+
+font-family: 'poppinsBold';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 60px;
+/* or 158% */
+
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 30px 0px;
+}
+
+.steps_p{
+    position: static;
+width: 300px;
+height: 120px;
+left: 20px;
+top: 225px;
+
+font-family: 'poppinsRegular';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+/* or 164% */
+
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+text-align: center;
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 30px 0px;
+}
+
+/* hero section 2 */
+.hero_content_landing{
+    width: 673px;
+    height: 117px;
+    left: 0px;
+    top: 265px;
+    font-family: 'poppinsRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    /* or 164% */
+    
+    letter-spacing: 0.02em;
+    margin-bottom: 50px;
+  }
+/* end hero section 2 */
