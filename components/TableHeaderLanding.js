@@ -5,7 +5,7 @@ import { faCircleDollarToSlot, faChartColumn } from '@fortawesome/free-solid-svg
 const TableHeaderLanding = () => {
     return (
         <>
-            <div className={styles.header__container}>
+            <div className={styles.header__container_landing}>
                 <div className={styles.header__row}>
                     <div className={styles.coin__data_p}>
                         <p className={styles.header__name_landing}>Name</p>

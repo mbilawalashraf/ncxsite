@@ -281,6 +281,12 @@
 }
 
 /* Header Landing */
+.header__container_landing{
+    padding: 40px 45px 0px;
+    display: flex;
+    justify-content: center;
+
+}
 .header__name_landing{
     width: 170px;
     text-align: left;

@@ -27,29 +27,29 @@ function Landing({ coinsData }) {
         <>
             <Nav />
             {/* Hero Section */}
-            <div className="bg-white lg:h-full lg:py-16">
+            <div className="bg-white lg:h-full">
                 <div className="max-w-screen-xl mx-auto">
                     <div className="container flex px-6 mx-auto">
                         <div className="flex flex-col lg:flex-row h1_parent_landing">
                             <div className="max-w-lg">
                                 <h1 className={styles.hero1_title}>Buy Crypto</h1>
                                 <p className={styles.hero1_p}>Buy, sell, trade and hold 200+<br />cryptocurrencies on NCX</p>
-                                <div className="mt-6">
+                                <div className={styles.hero1_button}>
                                     <a href="#"
-                                        className="block px-12 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 lg:inline hover:bg-blue-400">Get Started 
+                                        className="">Get Started 
                                     </a>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="flex items-center justify-center w-full">
+                        <div className="flex items-center justify-end w-full">
                             {/* <img className="object-cover w-full h-full max-w-2xl rounded-md mockup-pic"
                                 src="/mockup.png" alt="Mock Up Data" /> */}
                             <video 
                                 autoPlay
                                 loop
                                 muted
-                                className="object-cover w-3/4 h-full rounded-md"
+                                className="object-cover w-4/6 h-full rounded-md"
                             >
                             <source src="/buycrypto2.mp4" type="video/mp4" />
                             </video>
@@ -136,6 +136,16 @@ function Landing({ coinsData }) {
                 </div>
             </div>
             {/* End Steps Section */}
+            {/* Coin List Section */}
+            <div className="bg-white lg:h-full lg:py-12">
+                <div className="max-w-screen-xl mx-auto">
+                    <div className={styles.coin_scroll}>
+                        <TableHeaderLanding />
+                        <CoinListLanding coinsData={filteredCoins} />
+                    </div>
+                </div>
+            </div>
+            {/* End Coin List Section */}
             {/* Hero Section */}
             <div className="bg-white lg:h-full lg:py-16">
                 <div className="max-w-screen-xl mx-auto">
@@ -209,16 +219,6 @@ function Landing({ coinsData }) {
                 </div>
             </div>
             {/* End Hero Section 2 */}
-            {/* Coin List Section */}
-            <div className="bg-white lg:h-full lg:py-12">
-                <div className="max-w-screen-xl mx-auto">
-                    <div className={styles.coin_scroll}>
-                        <TableHeaderLanding />
-                        <CoinListLanding coinsData={filteredCoins} />
-                    </div>
-                </div>
-            </div>
-            {/* End Coin List Section */}
             <Footer />
         </>
     )
