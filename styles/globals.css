@@ -109,6 +109,10 @@ a {
 /* End Navigation */
 
 /* Hero Section */
+.hero1_section_text{
+  margin-left: 70px
+}
+
 .h1_parent{
   width: 60%
 }
@@ -479,7 +483,7 @@ footer p{
 
 /* Landing Page */
 .h1_parent_landing{
-  padding-top: 13rem;
+  padding-top: 8rem;
 }
 
 .bg_coinslist{
