@@ -231,8 +231,9 @@ a {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 25px 0px;
+  /* margin: 25px 0px; */
 }
+
 
 .store-logo2{
   display: flex;
@@ -427,7 +428,7 @@ a {
 }
 
 .small_links{
-  margin-top: 100px;
+  margin-top: 140px;
 }
 
 .small_links p{

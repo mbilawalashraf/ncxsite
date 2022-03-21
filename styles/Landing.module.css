@@ -96,56 +96,84 @@
 
 .steps_h1{
     position: static;
-width: 300px;
-height: 45px;
-left: 20px;
-top: 150px;
+    width: 300px;
+    height: 45px;
+    left: 20px;
+    top: 150px;
 
-font-family: 'poppinsBold';
-font-style: normal;
-font-weight: 700;
-font-size: 38px;
-line-height: 60px;
-/* or 158% */
+    font-family: 'poppinsBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    /* or 158% */
 
-text-align: center;
+    text-align: center;
 
-color: #000000;
+    color: #000000;
 
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 30px 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 30px 0px;
 }
 
 .steps_p{
     position: static;
-width: 300px;
-height: 120px;
-left: 20px;
-top: 225px;
+    width: 300px;
+    height: 120px;
+    left: 20px;
+    top: 225px;
 
-font-family: 'poppinsRegular';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 36px;
-/* or 164% */
+    font-family: 'poppinsRegular';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 22px;
+    line-height: 36px; */
+    /* or 164% */
+    line-height: 26px;
+    font-size: 18px;
 
-text-align: center;
+    text-align: center;
 
-color: #000000;
+    color: #000000;
 
 
-/* Inside auto layout */
-text-align: center;
-flex: none;
-order: 2;
-flex-grow: 0;
-margin: 30px 0px;
+    /* Inside auto layout */
+    text-align: center;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 30px 0px;
+}
+
+.steps_p p{
+    line-height: 26px;
+    font-size: 18px;
+}
+
+.hero2_button{
+    width: 150px !important;
+    min-width: 150px !important;
+    height: 48px !important;
+    background: #3772FF;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.hero2_button a{
+    position: relative;
+    top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 /* hero section 2 */
@@ -175,4 +203,35 @@ margin: 30px 0px;
     margin: auto;
     background-color: white;
 }
+
+.coin_scroll h1{
+    font-family: 'poppinsSemiBold';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    position: static;
+    width: 651px;
+    height: 32px;
+    left: 0px;
+    margin: 32px;
+    top: 0px;
+}
 /* End Coins List */
+
+/* hero section 3*/
+.hero_content_landing3{
+    width: 673px;
+    height: 117px;
+    left: 0px;
+    top: 265px;
+    font-family: 'poppinsRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    /* or 164% */
+    
+    letter-spacing: 0.02em;
+    /* margin-bottom: 50px; */
+  }
+/* end hero section 3 */
