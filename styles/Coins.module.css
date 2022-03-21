@@ -332,6 +332,12 @@
 /* End Header Landing */
 
 /* Coins List Landing */
+.coin__container_landing{
+    display: flex;
+    justify-content: center;
+    padding: 0 45px;
+}
+
 .icons_sym_landing {
     position: relative;
     width: 300px;

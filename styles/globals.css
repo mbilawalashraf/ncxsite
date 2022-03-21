@@ -481,4 +481,9 @@ footer p{
 .h1_parent_landing{
   padding-top: 13rem;
 }
+
+.bg_coinslist{
+  background-color: #F8F8F9;
+  padding: 100px 0px;
+}
 /* End Landing Page */

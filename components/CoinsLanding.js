@@ -5,7 +5,7 @@ const CoinsLanding = ({ name, id, price, symbol, marketcap, volume, image, price
     return (
         // <Link href={`/coin/${id}`}>
         //     <a>
-            <div className={styles.coin__container}>
+            <div className={styles.coin__container_landing}>
             <div className={styles.coin__row}>
                 <div className={styles.coin__data}>
                     <div className={styles.icons_sym_landing}>

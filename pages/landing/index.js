@@ -2,7 +2,7 @@ import styles from '../../styles/Landing.module.css'
 
 
 import Nav from "../../components/Nav";
-
+import SearchBar from '../../components/SearchBar';
 import TableHeaderLanding from "../../components/TableHeaderLanding"
 
 import CoinListLanding from '../../components/CoinsListLanding';
@@ -28,7 +28,7 @@ function Landing({ coinsData }) {
             <Nav />
             {/* Hero Section */}
             <div className="bg-white lg:h-full">
-                <div className="max-w-screen-xl mx-auto">
+                <div className="max-w-screen-xl mx-auto pb-28">
                     <div className="container flex px-6 mx-auto">
                         <div className="flex flex-col lg:flex-row h1_parent_landing">
                             <div className="max-w-lg">
@@ -49,7 +49,7 @@ function Landing({ coinsData }) {
                                 autoPlay
                                 loop
                                 muted
-                                className="object-cover w-4/6 h-full rounded-md"
+                                className="object-cover w-3/5 h-full rounded-md"
                             >
                             <source src="/buycrypto2.mp4" type="video/mp4" />
                             </video>
@@ -137,9 +137,13 @@ function Landing({ coinsData }) {
             </div>
             {/* End Steps Section */}
             {/* Coin List Section */}
-            <div className="bg-white lg:h-full lg:py-12">
+            {/* SearchBar */}
+            
+            {/* SearchBar */}
+            <div className="bg-white lg:h-full bg_coinslist">
                 <div className="max-w-screen-xl mx-auto">
                     <div className={styles.coin_scroll}>
+                        <SearchBar type='text' placeholder='Search' onChange={handleChange} />
                         <TableHeaderLanding />
                         <CoinListLanding coinsData={filteredCoins} />
                     </div>
