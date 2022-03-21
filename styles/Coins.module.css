@@ -160,10 +160,10 @@
     color: white;
     font-family: 'poppinsMedium';
 }
-.coin__row:hover{
-    /* background: rgb(244,245,246, 0.2); */
+/* .coin__row:hover{
+    background: rgb(244,245,246, 0.2);
     background: #2E3139;
-}
+} */
 .coin{
     display: flex;
     align-items: center;
@@ -279,3 +279,84 @@
     text-transform: uppercase;
     font-family: 'poppinsRegular';
 }
+
+/* Header Landing */
+.header__name_landing{
+    width: 170px;
+    text-align: left;
+    color: #777E90;
+    font-size: 12px;
+}
+
+.header__price_landing{
+    width: 200px;
+    text-align: right;
+    color: #777E90;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.header__24h_landing{
+    width: 170px;
+    text-align: center;
+    color: #777E90;
+    font-size: 12px;
+}
+
+.header__marketcap_landing{
+    width: 170px;
+    text-align: center;
+    color: #777E90;
+    font-size: 12px;
+}
+
+.header__volume_landing{
+    width: 170px;
+    text-align: right;
+    color: #777E90;
+    font-size: 12px;
+}
+
+.header__chart_landing{
+    width: 170px;
+    text-align: right;
+    color: #777E90;
+    font-size: 12px;
+}
+/* End Header Landing */
+
+/* Coins List Landing */
+.icons_sym_landing {
+    position: relative;
+    width: 300px;
+    text-align: left;
+    transform: translateY(9%);
+    margin-left: 10px;
+}
+
+.coin__symbol_landing{
+    /* text-transform: uppercase; */
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #23262F;
+    /* font-weight: bold; */
+}
+
+.coin__price_landing{
+    width: 110px;
+    color: #23262F;
+    /* font-weight: bold; */
+    transform: translateY(25%);
+    text-align: right;
+    margin-right: 30px;
+}
+
+.coin__high_24_landing{
+    width: 170px;
+    color: #23262F;
+    /* font-weight: bold; */
+    transform: translateY(25%);
+    text-align: left;
+}
+/* End Coins List Landing */

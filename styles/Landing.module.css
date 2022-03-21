@@ -1,15 +1,26 @@
 .hero1_title{
     position: static;
-    width: 676px;
-    height: 99px;
+    /* width: 280px; */
+    height: 74px;
     left: 0px;
-    top: 100px;
-    font-family: 'poppinsSemiBold';
+    top: 0px;
+    
+    font-family: 'DMSansBold';
     font-style: normal;
-    font-weight: 600;
-    letter-spacing: 0.02em;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 54px;
+    /* identical to box height, or 93% */
+    
+    
     color: #000000;
-    font-size: 49px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .hero1_p{
@@ -137,3 +148,13 @@ margin: 30px 0px;
     margin-bottom: 50px;
   }
 /* end hero section 2 */
+
+/* Coins List */
+.coin_scroll{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 736px;
+    height: 838px;
+    margin: auto;
+}
+/* End Coins List */

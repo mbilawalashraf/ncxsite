@@ -59,7 +59,7 @@
 
 html,
 body {
-  background-color: #141416;
+  background-color: white;
   padding: 0;
   margin: 0;
   /* font-family: "avenir"; */
@@ -475,3 +475,10 @@ footer p{
   height: 100%;
   width: 100%;
 }
+
+
+/* Landing Page */
+.h1_parent_landing{
+  padding-top: 8rem;
+}
+/* End Landing Page */

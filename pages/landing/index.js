@@ -3,17 +3,34 @@ import styles from '../../styles/Landing.module.css'
 
 import Nav from "../../components/Nav";
 
+import TableHeaderLanding from "../../components/TableHeaderLanding"
+
+import CoinListLanding from '../../components/CoinsListLanding';
+
 import Footer from "../../components/Footer";
 
-function Landing() {
+import { useState } from 'react';
+
+
+function Landing({ coinsData }) {
+    // console.log(coinsData)
+    const [search, setSearch] = useState('');
+
+    const filteredCoins = coinsData.filter(coin => coin.symbol.toLowerCase().includes(search.toLowerCase()));
+
+    const handleChange = e => {
+        e.preventDefault();
+        setSearch(e.target.value.toLowerCase());
+      }
+
     return (
         <>
             <Nav />
             {/* Hero Section */}
             <div className="bg-white lg:h-full lg:py-16">
                 <div className="max-w-screen-xl mx-auto">
-                    <div className="container flex px-6 py-32 mx-auto">
-                        <div className="flex flex-col w-full lg:flex-row h1_parent">
+                    <div className="container flex px-6 mx-auto">
+                        <div className="flex flex-col lg:flex-row h1_parent_landing">
                             <div className="max-w-lg">
                                 <h1 className={styles.hero1_title}>Buy Crypto</h1>
                                 <p className={styles.hero1_p}>Buy, sell, trade and hold 200+<br />cryptocurrencies on NCX</p>
@@ -32,9 +49,9 @@ function Landing() {
                                 autoPlay
                                 loop
                                 muted
-                                className="object-cover w-full h-full rounded-md"
+                                className="object-cover w-3/4 h-full rounded-md"
                             >
-                            <source src="/buycrypto.mp4" type="video/mp4" />
+                            <source src="/buycrypto2.mp4" type="video/mp4" />
                             </video>
                         </div>
                     </div>
@@ -192,6 +209,16 @@ function Landing() {
                 </div>
             </div>
             {/* End Hero Section 2 */}
+            {/* Coin List Section */}
+            <div className="bg-white lg:h-full lg:py-12">
+                <div className="max-w-screen-xl mx-auto">
+                    <div className={styles.coin_scroll}>
+                        <TableHeaderLanding />
+                        <CoinListLanding coinsData={filteredCoins} />
+                    </div>
+                </div>
+            </div>
+            {/* End Coin List Section */}
             <Footer />
         </>
     )
@@ -200,3 +227,19 @@ function Landing() {
 
 
 export default Landing
+
+export const getServerSideProps = async () => {
+    const res = await fetch(`https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false
+    `);
+  
+    const coinsData = await res.json();
+  
+    return {
+      props: {
+        coinsData
+      }
+    }
+  
+    
+  
+  }

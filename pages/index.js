@@ -2,13 +2,25 @@ import Head from 'next/head';
 // import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Nav from '../components/Nav';
-
+import CoinList from '../components/CoinList';
 import Footer from '../components/Footer';
+
+import { useState } from 'react';
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faFacebook } from '@fortawesome/free-solid-svg-icons'
 
-function Home() {
+function Home({ coinsData }) {
+    const [search, setSearch] = useState('');
+
+    const filteredCoins = coinsData.filter(coin => coin.symbol.toLowerCase().includes(search.toLowerCase()));
+  
+  
+    const handleChange = e => {
+      e.preventDefault();
+      setSearch(e.target.value.toLowerCase());
+    }
+
     const router = useRouter()
 
     const handleClick = () => {
@@ -178,6 +190,9 @@ function Home() {
                 </div>
             </div>
             {/* End Hero Section 4 */}
+            {/* Coins List Section */}
+            <CoinList coinsData={filteredCoins}  />
+            {/* End Coins List Section */}
             {/* Footer */}
             <Footer />
             {/* End Footer */}
@@ -204,3 +219,18 @@ function Home() {
 }
 
 export default Home
+
+export const getServerSideProps = async () => {
+    const res = await fetch(`https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h%2C24%2C7d`);
+  
+    const coinsData = await res.json();
+  
+    return {
+      props: {
+        coinsData
+      }
+    }
+  
+    
+  
+  }
