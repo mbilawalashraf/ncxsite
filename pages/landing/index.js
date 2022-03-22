@@ -71,7 +71,7 @@ function Landing({ coinsData }) {
                             <div className={styles.steps_background}>
                                 <a href="#" className="lg:inline">
                                     <div>
-                                        <img className="" src="/test.gif" alt="Mock Up Data" />
+                                        <img className="" src="/test.svg" alt="Mock Up Data" />
                                     </div>
                                 </a>
                             </div>
@@ -86,7 +86,7 @@ function Landing({ coinsData }) {
                             <div className={styles.steps_background}>
                                 <a href="#" className="lg:inline">
                                     <div>
-                                        <img className="" src="/person.gif" alt="Mock Up Data" />
+                                        <img className="" src="/person.svg" alt="Mock Up Data" />
                                     </div>
                                 </a>
                             </div>
@@ -101,7 +101,7 @@ function Landing({ coinsData }) {
                             <div className={styles.steps_background}>
                                 <a href="#" className="lg:inline">
                                     <div>
-                                        <img className="" src="/deposit.gif" alt="Mock Up Data" />
+                                        <img className="" src="/trade.svg" alt="Mock Up Data" />
                                     </div>
                                 </a>
                             </div>
@@ -116,7 +116,7 @@ function Landing({ coinsData }) {
                             <div className={styles.steps_background}>
                                 <a href="#" className="lg:inline">
                                     <div>
-                                        <img className="" src="/trade.gif" alt="Mock Up Data" />
+                                        <img className="" src="/deposit.svg" alt="Mock Up Data" />
                                     </div>
                                 </a>
                             </div>
@@ -176,7 +176,7 @@ function Landing({ coinsData }) {
                                 </div>
                                 <div className={styles.hero1_button}>
                                     <a href="#"
-                                        className="">Trade Now
+                                        className="">Get Started
                                     </a>
                                 </div>
                             </div>

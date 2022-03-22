@@ -219,18 +219,19 @@ a {
 .hero-content2{
   font-family: 'poppinsRegular';
   font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.02em;
-  position: static;
   width: 533px;
   height: 117px;
   left: 50px;
   top: 266px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+/* or 164% */
+
+letter-spacing: 0.02em;
+
+color: #000000;
+
   /* margin: 25px 0px; */
 }
 
@@ -286,17 +287,20 @@ a {
 }
 
 .hero-content3{
-  width: 509px;
-  height: 117px;
+  width: 673px;
+  height: 151px;
   left: 0px;
   top: 265px;
   font-family: 'poppinsRegular';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 36px;
+  /* or 164% */
+  
   letter-spacing: 0.02em;
-  margin-bottom: 30px;
+  
+  color: #000000;
 }
 
 .pick3_parent{
@@ -377,17 +381,21 @@ a {
 
 .hero-content4{
   position: static;
-  width: 533px;
-  height: 117px;
-  left: 50px;
-  top: 266px;
+  width: 673px;
+  height: 153px;
+  left: 0px;
+  top: 339px;
   font-family: 'poppinsRegular';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 36px;
+  /* or 164% */
+  
   letter-spacing: 0.02em;
-  margin-bottom: 50px;
+  
+  color: #000000;
+  margin-bottom: 30px;
 }
 /* End Hero Section4 */
 

@@ -288,14 +288,14 @@
 
 }
 .header__name_landing{
-    width: 170px;
+    width: 52px;
     text-align: left;
     color: #777E90;
     font-size: 12px;
 }
 
 .header__price_landing{
-    width: 200px;
+    width: 160px;
     text-align: right;
     color: #777E90;
     font-size: 12px;
@@ -303,8 +303,8 @@
 }
 
 .header__24h_landing{
-    width: 170px;
-    text-align: center;
+    width: 70px;
+    text-align: right;
     color: #777E90;
     font-size: 12px;
 }
@@ -338,9 +338,17 @@
     padding: 0 45px;
 }
 
+.coin__rank{
+    position: relative;
+    text-align: left;
+    transform: translateY(20%);
+    margin-left: 10px;
+    color: #23262F;
+}
+
 .icons_sym_landing {
     position: relative;
-    width: 300px;
+    width: 241px;
     text-align: left;
     transform: translateY(9%);
     margin-left: 10px;
@@ -356,7 +364,7 @@
 }
 
 .coin__price_landing{
-    width: 110px;
+    width: 96px;
     color: #23262F;
     /* font-weight: bold; */
     transform: translateY(25%);
@@ -370,5 +378,23 @@
     /* font-weight: bold; */
     transform: translateY(25%);
     text-align: left;
+}
+
+.coin_green_landing{
+    color: #28B594;
+    width: 70px;
+    /* font-weight: bold; */
+    transform: translateY(25%);
+    text-align: right;
+    margin-left: 17px;
+}
+
+.coin_red_landing{
+    color: #F84343;
+    width: 70px;
+    /* font-weight: bold; */
+    transform: translateY(25%);
+    text-align: right;
+    margin-left: 17px;
 }
 /* End Coins List Landing */

@@ -1,8 +1,10 @@
+import styles from '../styles/Landing.module.css'
+
+
 import Head from 'next/head';
 // import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Nav from '../components/Nav';
-import CoinList from '../components/CoinList';
 import Footer from '../components/Footer';
 
 import { useState } from 'react';
@@ -61,9 +63,9 @@ function Home({ coinsData }) {
                                         </a>
                                     </div>
                                 </div>
-                                <div className="mt-6">
+                                <div className={styles.hero1_button}>
                                     <a href="#"
-                                        className="block px-12 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 lg:inline hover:bg-blue-400">Trade Now
+                                        className="">Trade Now
                                     </a>
                                 </div>
                             </div>
@@ -100,9 +102,8 @@ function Home({ coinsData }) {
                                         </a>
                                     </div>
                                 </div>
-                                <div style={{marginTop: 4.5 + 'rem'}}>
-                                    <a href="#"
-                                        className="block px-12 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 lg:inline hover:bg-blue-400">Sign Up
+                                <div className={styles.hero1_button}>
+                                    <a href="#">Sign Up
                                     </a>
                                 </div>
                             </div>
@@ -119,7 +120,7 @@ function Home({ coinsData }) {
                             <div className="max-w-lg">
                                 <h1 className="hero-title3">Your Security.<br />Our Priority.</h1>
                                 <p className="mt-0 hero-content3">SSL Encryption<br />Two-step Verification<br />Security  Penetration Tests<br />Instant KYC</p>
-                                <div className="grid grid-cols-4 store-logo">
+                                {/* <div className="grid grid-cols-4 store-logo">
                                     <div className="">
                                         <a href="#"
                                             className="lg:inline"><img className=""
@@ -133,10 +134,9 @@ function Home({ coinsData }) {
                                             src="/googleplay.svg" alt="Mock Up Data" />
                                         </a>
                                     </div>
-                                </div>
-                                <div className="mt-6">
-                                    <a href="#"
-                                        className="block px-12 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 lg:inline hover:bg-blue-400">Sign Up
+                                </div> */}
+                                <div className={styles.hero1_button}>
+                                    <a href="#">Get Started
                                     </a>
                                 </div>
                             </div>
@@ -179,9 +179,8 @@ function Home({ coinsData }) {
                                         </a>
                                     </div>
                                 </div>
-                                <div className="mt-6">
-                                    <a href="#"
-                                        className="block px-12 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 lg:inline hover:bg-blue-400">Sign Up
+                                <div className={styles.hero1_button}>
+                                    <a href="#">Sign Up
                                     </a>
                                 </div>
                             </div>
@@ -190,9 +189,6 @@ function Home({ coinsData }) {
                 </div>
             </div>
             {/* End Hero Section 4 */}
-            {/* Coins List Section */}
-            <CoinList coinsData={filteredCoins}  />
-            {/* End Coins List Section */}
             {/* Footer */}
             <Footer />
             {/* End Footer */}

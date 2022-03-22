@@ -40,8 +40,8 @@
 }
 
 .hero1_button{
-    width: 150px !important;
-    min-width: 150px !important;
+    width: 180px !important;
+    min-width: 180px !important;
     height: 48px !important;
     background: #3772FF;
     text-align: center;
@@ -50,11 +50,12 @@
 }
 
 .hero1_button a{
+    font-family: 'DMSansRegular';
     position: relative;
-    top: 10px;
+    top: 11px;
     color: white;
-    font-weight: bold;
     font-size: 16px;
+    font-weight: 500;
 }
 
 .steps_title{
@@ -156,8 +157,8 @@
 }
 
 .hero2_button{
-    width: 150px !important;
-    min-width: 150px !important;
+    width: 180px !important;
+    min-width: 180px !important;
     height: 48px !important;
     background: #3772FF;
     text-align: center;
@@ -172,8 +173,9 @@
     position: relative;
     top: 10px;
     color: white;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 16px;
+    font-family: 'DMSansRegular';
 }
 
 /* hero section 2 */

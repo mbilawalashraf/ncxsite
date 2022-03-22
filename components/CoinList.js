@@ -19,6 +19,7 @@ const CoinList = ({ coinsData }) => {
                         priceChange={coin.price_change_percentage_24h}
                         high24={coin.high_24h}
                         low24={coin.low_24h}
+                        rank={coin.market_cap_rank}
                     />
                 )
             })}
