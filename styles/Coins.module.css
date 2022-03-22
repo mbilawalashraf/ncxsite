@@ -288,18 +288,29 @@
 
 }
 .header__name_landing{
-    width: 52px;
     text-align: left;
     color: #777E90;
     font-size: 12px;
+    display: inherit;
+    margin-left: 13px;
+}
+
+.header__name_landing span{
+    margin-top: 0.2px;
+    margin-left: 5px;
 }
 
 .header__price_landing{
-    width: 160px;
     text-align: right;
     color: #777E90;
     font-size: 12px;
-    margin-right: 20px;
+    margin-left: 141px;
+    display: inherit;
+}
+
+.header__price_landing span{
+    margin-top: 0.2px;
+    margin-left: 5px;
 }
 
 .header__24h_landing{
@@ -344,6 +355,12 @@
     transform: translateY(20%);
     margin-left: 10px;
     color: #23262F;
+    display: inherit;
+}
+
+.coin__rank span{
+    margin-top: 0.2px;
+    margin-right: 5px;
 }
 
 .icons_sym_landing {

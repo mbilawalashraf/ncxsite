@@ -8,7 +8,7 @@ const CoinsLanding = ({ name, id, price, symbol, marketcap, volume, image, price
             <div className={styles.coin__container_landing}>
             <div className={styles.coin__row}>
                 <div className={styles.coin__data}>
-                    <p className={styles.coin__rank}>&#11088;&nbsp;&nbsp;&nbsp;{rank}</p>
+                    <p className={styles.coin__rank}><span><img src='/star.svg' /></span>{rank}</p>
                     <div className={styles.icons_sym_landing}>
                         <img src={image} alt={name} className={styles.coin_logo} />
                         <p className={styles.coin__symbol_landing}>{name} <span className={styles.symbol_span}>{symbol}</span> </p>
