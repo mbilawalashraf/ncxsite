@@ -34,6 +34,21 @@ function Landing({ coinsData }) {
                             <div className="max-w-lg hero1_section_text">
                                 <h1 className={styles.hero1_title}>Buy Crypto</h1>
                                 <p className={styles.hero1_p}>Buy, sell, trade and hold 200+<br />cryptocurrencies on NCX</p>
+                                <div className="grid grid-cols-4 store-logo">
+                                    <div className="">
+                                        <a href="#"
+                                            className="lg:inline"><img className="appstore"
+                                            src="/appstore.svg" alt="Mock Up Data" />
+                                            
+                                        </a>
+                                    </div>
+                                    <div className="">
+                                        <a href="#"
+                                            className="lg:inline"><img className="googlestore"
+                                            src="/googleplay.svg" alt="Mock Up Data" />
+                                        </a>
+                                    </div>
+                                </div>
                                 <div className={styles.hero1_button}>
                                     <a href="#"
                                         className="">Get Started 
@@ -162,19 +177,19 @@ function Landing({ coinsData }) {
                                 <div className="grid grid-cols-4 store-logo">
                                     <div className="">
                                         <a href="#"
-                                            className="lg:inline"><img className=""
+                                            className="lg:inline"><img className="appstore"
                                             src="/appstore.svg" alt="Mock Up Data" />
                                             
                                         </a>
                                     </div>
                                     <div className="">
                                         <a href="#"
-                                            className="lg:inline"><img className=""
+                                            className="lg:inline"><img className="googlestore"
                                             src="/googleplay.svg" alt="Mock Up Data" />
                                         </a>
                                     </div>
                                 </div>
-                                <div className={styles.hero1_button}>
+                                <div className={styles.hero3_button}>
                                     <a href="#"
                                         className="">Get Started
                                     </a>

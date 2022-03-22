@@ -51,14 +51,14 @@ function Home({ coinsData }) {
                                 <div className="grid grid-cols-4 store-logo">
                                     <div className="">
                                         <a href="#"
-                                            className="lg:inline"><img className=""
+                                            className="lg:inline"><img className="appstore"
                                             src="/appstore.svg" alt="Mock Up Data" />
                                             
                                         </a>
                                     </div>
                                     <div className="">
                                         <a href="#"
-                                            className="lg:inline"><img className=""
+                                            className="lg:inline"><img className="googlestore"
                                             src="/googleplay.svg" alt="Mock Up Data" />
                                         </a>
                                     </div>
@@ -120,21 +120,6 @@ function Home({ coinsData }) {
                             <div className="max-w-lg">
                                 <h1 className="hero-title3">Your Security.<br />Our Priority.</h1>
                                 <p className="mt-0 hero-content3">SSL Encryption<br />Two-step Verification<br />Security  Penetration Tests<br />Instant KYC</p>
-                                {/* <div className="grid grid-cols-4 store-logo">
-                                    <div className="">
-                                        <a href="#"
-                                            className="lg:inline"><img className=""
-                                            src="/appstore.svg" alt="Mock Up Data" />
-                                            
-                                        </a>
-                                    </div>
-                                    <div className="">
-                                        <a href="#"
-                                            className="lg:inline"><img className=""
-                                            src="/googleplay.svg" alt="Mock Up Data" />
-                                        </a>
-                                    </div>
-                                </div> */}
                                 <div className={styles.hero1_button}>
                                     <a href="#">Get Started
                                     </a>
@@ -167,14 +152,14 @@ function Home({ coinsData }) {
                                 <div className="grid grid-cols-4 store-logo">
                                     <div className="">
                                         <a href="#"
-                                            className="lg:inline"><img className=""
+                                            className="lg:inline"><img className="appstore"
                                             src="/appstore.svg" alt="Mock Up Data" />
                                             
                                         </a>
                                     </div>
                                     <div className="">
                                         <a href="#"
-                                            className="lg:inline"><img className=""
+                                            className="lg:inline"><img className="googlestore"
                                             src="/googleplay.svg" alt="Mock Up Data" />
                                         </a>
                                     </div>

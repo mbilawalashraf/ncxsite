@@ -37,6 +37,7 @@
     line-height: 34px;
 
     color: #000000;
+    margin-bottom: 15px;
 }
 
 .hero1_button{
@@ -46,7 +47,7 @@
     background: #3772FF;
     text-align: center;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 15px;
 }
 
 .hero1_button a{
@@ -57,6 +58,8 @@
     font-size: 16px;
     font-weight: 500;
 }
+
+
 
 .steps_title{
     position: static;
@@ -255,4 +258,24 @@
     letter-spacing: 0.02em;
     /* margin-bottom: 50px; */
   }
+
+  .hero3_button{
+    width: 180px !important;
+    min-width: 180px !important;
+    height: 43px !important;
+    background: #3772FF;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.hero3_button a{
+    font-family: 'DMSansRegular';
+    position: relative;
+    top: 9px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 /* end hero section 3 */
