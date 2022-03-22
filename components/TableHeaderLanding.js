@@ -8,9 +8,9 @@ const TableHeaderLanding = () => {
             <div className={styles.header__container_landing}>
                 <div className={styles.header__row}>
                     <div className={styles.coin__data_p}>
-                        <p className={styles.header__name_landing}>#<span><img src='/line.svg' /></span></p>
-                        <p className={styles.header__name_landing}>Name<span><img src='/line.svg' /></span></p>
-                        <p className={styles.header__price_landing}>Price<span><img src='/line.svg' /></span></p>
+                        <p className={styles.header__name_landing}>#<span><img src='/Line.svg' /></span></p>
+                        <p className={styles.header__name_landing}>Name<span><img src='/Line.svg' /></span></p>
+                        <p className={styles.header__price_landing}>Price<span><img src='/Line.svg' /></span></p>
                         <p className={styles.header__24h_landing}>24h%</p>
                         {/* <p className={styles.header__marketcap_landing}>Market Cap <FontAwesomeIcon icon={faCircleDollarToSlot} /></p>
                         <p className={styles.header__volume_landing}>Volume(24h) <FontAwesomeIcon icon={faChartColumn} /></p>
