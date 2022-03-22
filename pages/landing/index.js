@@ -70,7 +70,7 @@ function Landing({ coinsData }) {
                         <div>
                             <div className={styles.steps_background}>
                                 <a href="#" className="lg:inline">
-                                    <div>
+                                    <div className={styles.icon_register}>
                                         <img className="" src="/test.svg" alt="Mock Up Data" />
                                     </div>
                                 </a>
@@ -85,7 +85,7 @@ function Landing({ coinsData }) {
                         <div>
                             <div className={styles.steps_background}>
                                 <a href="#" className="lg:inline">
-                                    <div>
+                                    <div className={styles.icon_verify}>
                                         <img className="" src="/person.svg" alt="Mock Up Data" />
                                     </div>
                                 </a>
@@ -100,7 +100,7 @@ function Landing({ coinsData }) {
                         <div>
                             <div className={styles.steps_background}>
                                 <a href="#" className="lg:inline">
-                                    <div>
+                                    <div className={styles.icon_deposit}>
                                         <img className="" src="/trade.svg" alt="Mock Up Data" />
                                     </div>
                                 </a>
@@ -115,7 +115,7 @@ function Landing({ coinsData }) {
                         <div>
                             <div className={styles.steps_background}>
                                 <a href="#" className="lg:inline">
-                                    <div>
+                                    <div className={styles.icon_trade}>
                                         <img className="" src="/deposit.svg" alt="Mock Up Data" />
                                     </div>
                                 </a>

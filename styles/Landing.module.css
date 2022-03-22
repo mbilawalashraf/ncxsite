@@ -42,7 +42,7 @@
 .hero1_button{
     width: 180px !important;
     min-width: 180px !important;
-    height: 48px !important;
+    height: 43px !important;
     background: #3772FF;
     text-align: center;
     justify-content: center;
@@ -52,7 +52,7 @@
 .hero1_button a{
     font-family: 'DMSansRegular';
     position: relative;
-    top: 11px;
+    top: 9px;
     color: white;
     font-size: 16px;
     font-weight: 500;
@@ -93,6 +93,25 @@
     justify-content: center;
     width: 70px;
     margin: auto;
+}
+
+.steps_background .icon_register img{
+    width: 25px;
+    height: 32px;
+}
+
+.steps_background .icon_verify img{
+    width: 43.54px;
+    height: 43.54px;
+}
+.steps_background .icon_deposit img {
+    width: 28px;
+    height: 28px;
+}
+
+.steps_background .icon_trade img {
+    width: 28px;
+    height: 28px;
 }
 
 .steps_h1{
@@ -159,7 +178,7 @@
 .hero2_button{
     width: 180px !important;
     min-width: 180px !important;
-    height: 48px !important;
+    height: 43px !important;
     background: #3772FF;
     text-align: center;
     justify-content: center;
@@ -171,7 +190,7 @@
 
 .hero2_button a{
     position: relative;
-    top: 10px;
+    top: 9px;
     color: white;
     font-weight: 500;
     font-size: 16px;
