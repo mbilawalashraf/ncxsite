@@ -349,7 +349,7 @@ color: #000000;
 /* Hero Section4 */
 .mockup4header{
   margin-left: 0px;
-  margin-right: 119.6px;
+  margin-right: 0px;
 }
 
 .mockup4_container{
@@ -373,7 +373,7 @@ color: #000000;
 }
 
 .mockup-pic4{
-  height: 490px;
+  height: 535px;
   width: 58vw;
   -o-object-fit: cover;
   object-fit: contain;

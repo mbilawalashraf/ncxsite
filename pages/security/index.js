@@ -117,11 +117,11 @@ function Security() {
                             </div>
                         </div>
                     </div>
-                    <div className={styles.hero2_button}>
+                    {/* <div className={styles.hero2_button}>
                     <a href="#"
                         className="">Get Started
                     </a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             {/* End Steps Section */}
