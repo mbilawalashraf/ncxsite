@@ -12,9 +12,9 @@ function Security() {
             <div className="bg-white lg:h-full lg:py-16">
                 <div className="max-w-screen-xl mx-auto">
                     <div className="container flex px-6 py-32 mx-auto">
-                        <div className="flex flex-col w-full lg:flex-row h1_parent">
+                        <div className="flex flex-col w-full lg:flex-row h1_parent_security">
                             <div className="max-w-lg">
-                                <h1 className="hero-title">Global WEB 3.0<br />Cryptocurrency Exchange</h1>
+                                <h1 className={styles.hero1_title}>Global WEB 3.0<br />Cryptocurrency Exchange</h1>
                                 <p className="mt-0 hero-content">Buy, Sell  Trade over 100+ cryptocurrencies on NCX<br />Fast, Safe & Secure </p>
                                 <div className="grid grid-cols-4 store-logo">
                                     <div className="">
@@ -39,9 +39,15 @@ function Security() {
                             </div>
                         </div>
 
-                        <div className="flex items-center justify-center w-full h-96 mock_parent">
-                            <img className="object-cover w-full h-full max-w-2xl rounded-md mockup-pic"
-                                src="/mockup.png" alt="Mock Up Data" />
+                        <div className="flex items-center justify-center w-full h-96 mock_parent_security">
+                            <video 
+                                autoPlay
+                                loop
+                                muted
+                                className="object-cover w-3/5 rounded-md security_video"
+                            >
+                            <source src="/security_vid.mp4" type="video/mp4" />
+                            </video>
                         </div>
                     </div>
                 </div>

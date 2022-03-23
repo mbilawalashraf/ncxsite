@@ -529,3 +529,21 @@ footer p{
   padding: 100px 0px;
 }
 /* End Landing Page */
+
+/* Security Page */
+.h1_parent_security{
+  width: 40%;
+  z-index: 99999;
+}
+
+.mock_parent_security{
+  width: 60%;
+}
+
+.security_video{
+  width: 100%;
+  position: relative;
+  top: 30px;
+  left: 100px;
+}
+/* End Security Page */

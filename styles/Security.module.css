@@ -1,27 +1,18 @@
 /* Hero Section */
 .hero1_title{
     position: static;
-    /* width: 280px; */
+    width: 700px;
+    height: 128px;
     left: 0px;
-    top: 0px;
-    
-    font-family: 'DMSansBold';
+    top: 100px;
+    font-family: 'poppinsSemiBold';
     font-style: normal;
-    font-weight: 700;
-    font-size: 58px;
-    /* identical to box height, or 93% */
-    height: auto;
-    padding-bottom: 12px;
-    line-hight: 74px;
-    
+    font-weight: 600;
+    letter-spacing: 0.02em;
     color: #000000;
-    
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    font-size: 44px;
+    line-height: 64px;
+    margin-bottom: 22px;
 }
 
 .hero1_p{
@@ -33,7 +24,7 @@
     font-family: 'poppinsRegular';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 21px;
     /* or 92% */
     line-height: 34px;
 
