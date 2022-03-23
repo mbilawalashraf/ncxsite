@@ -182,6 +182,11 @@ a {
   margin-left: -14px;
 }
 
+.store-logo a img{
+  max-width: 90%;
+  height: auto;
+}
+
 .store-logo .playstore {
   height: 80px;
   position: relative;
@@ -189,9 +194,9 @@ a {
 }
 
 .store-logo .googlestore {
-  height: 77px;
+  height: auto;
   position: relative;
-  right: 18px;
+  right: 38px;
 }
 /* End Hero Section */
 
@@ -534,6 +539,16 @@ footer p{
 .h1_parent_security{
   width: 40%;
   z-index: 99999;
+}
+
+.hero-content_security{
+  width: 673px;
+  height: 97px;
+  top: 265px;
+  font-family: 'poppinsRegular';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
 }
 
 .mock_parent_security{
