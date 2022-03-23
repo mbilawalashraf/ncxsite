@@ -1,0 +1,201 @@
+/* Hero Section */
+.hero1_title{
+    position: static;
+    /* width: 280px; */
+    left: 0px;
+    top: 0px;
+    
+    font-family: 'DMSansBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    /* identical to box height, or 93% */
+    height: auto;
+    padding-bottom: 12px;
+    line-hight: 74px;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hero1_p{
+    width: 529px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'poppinsRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    /* or 92% */
+    line-height: 34px;
+
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.hero1_button{
+    width: 180px !important;
+    min-width: 180px !important;
+    height: 43px !important;
+    background: #3772FF;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.hero1_button a{
+    font-family: 'DMSansRegular';
+    position: relative;
+    top: 9px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* End Hero Section */
+
+/* Steps Section */
+.steps_title{
+    position: static;
+    height: 108px;
+    left: 0px;
+    top: 20px;
+    
+    font-family: 'poppinsSemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 54px;
+    /* identical to box height, or 104% */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.steps_background{
+    align-items: center;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    width: 70px;
+    margin: auto;
+}
+
+.steps_background .icon_register img{
+    width: 69px;
+    height: 69px;
+}
+
+.steps_background .icon_verify img{
+    width: 69px;
+    height: 69px;
+}
+.steps_background .icon_deposit img {
+    width: 69px;
+    height: 69px;
+}
+
+.steps_background .icon_trade img {
+    width: 69px;
+    height: 69px;
+}
+
+.steps_h1{
+    position: static;
+    width: 300px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'DMSansBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 30px;
+    /* or 158% */
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 30px 0px;
+}
+
+.steps_p{
+    position: static;
+    width: 300px;
+    height: 120px;
+    left: 0px;
+    top: 80px;
+
+    font-family: 'poppinsRegular';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 22px;
+    line-height: 36px; */
+    /* or 164% */
+    line-height: 28px;
+    font-size: 18px;
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    text-align: center;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 30px 0px;
+}
+
+.steps_p p{
+    line-height: 26px;
+    font-size: 18px;
+}
+
+.hero2_button{
+    width: 180px !important;
+    min-width: 180px !important;
+    height: 43px !important;
+    background: #3772FF;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.hero2_button a{
+    position: relative;
+    top: 9px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'DMSansRegular';
+}
+/* End Step Section */

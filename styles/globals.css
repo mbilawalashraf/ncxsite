@@ -211,10 +211,13 @@ a {
   position: absolute;
 }
 
+.hero-parent2{
+  flex-direction: row-reverse;
+}
+
 .hero-title2{
   font-family: 'poppinsSemiBold';
   position: static;
-  width: 673px;
   height: 129px;
   left: 50px;
   top: 100px;
@@ -336,10 +339,10 @@ color: #000000;
 
 .mockup-pic3{
   height: 100%;
-  width: 63vw;
+  width: 68%;
   object-fit: cover;
   position: absolute;
-  top: 0px;
+  bottom: 42px;
 }
 /* End Hero Section3 */
 
@@ -380,7 +383,7 @@ color: #000000;
 
 .hero-title4{
   position: static;
-  width: 750px;
+  width: 707px;
   height: 192px;
   left: 0px;
   top: 110px;
