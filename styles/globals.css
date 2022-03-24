@@ -434,6 +434,14 @@ color: #000000;
 /* End Hero Section4 */
 
 /* Footer */
+footer{
+  padding-bottom: 20px;
+}
+
+hr{
+  padding-bottom: 40px;
+}
+
 .footer_logo_header{
   position: relative;
 }
@@ -454,29 +462,48 @@ color: #000000;
   top: 50px;
 }
 
-.fb_footer{
+.ig_insta svg, .twitter_footer svg, .fb_footer svg{
+  width: 20px;
+  height: 20px;
+  }
+
+.tele_footer{
   position: absolute;
-  right: 0px
+  right: 0px;
+  padding-top: 10px;
+}
+
+.fb_footer{
+    position: absolute;
+  right: 89px;
+  padding-top: 10px;
+  /* position: absolute;
+  right: 0px */
 }
 
 .twitter_footer{
   position: absolute;
-  right: 38px;
+  left: 73px;
+  padding-top: 10px;
 }
 
 .ig_insta{
   position: absolute;
-  right: 89px;
+  right: 42px;
+  padding-top: 10px;
+  /* position: absolute;
+  right: 89px; */
 }
 
 .small_links{
-  margin-top: 140px;
+  margin-top: 113px;
 }
 
 .small_links p{
   font-family: 'poppinsRegular';
-  font-size: 12px;
+  font-size: 14px;
   text-align:right;
+  padding-bottom: 10px;
   /* margin-top: 60px; */
 }
 
