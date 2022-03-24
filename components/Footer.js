@@ -1,7 +1,7 @@
 function Footer () {
     return (
         <footer className="text-center lg:text-left bg-white">
-                <div className="max-w-7xl mx-auto">
+                <div className="max-w-screen-xl mx-auto px-4">
                     <div className="mx-6 py-10 text-center md:text-left">
                         <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
                             <div className="">
