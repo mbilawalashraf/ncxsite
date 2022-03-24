@@ -88,22 +88,40 @@ a {
   border-right: 1px solid;
   height: 32px;
   margin-top: 19px;
+  margin-left: 10px;
+  margin-right: 30px;
 }
 
 .primary-nav{
-  font-family: "DMSansBold";
+  font-family: 'DMSansRegular';
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 500;
   line-height: 16px;
 }
 
 .secondary-nav{
   font-family: "DMSansRegular";
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+}
+
+.secondary-nav .sign_up{
+  width: 95px;
+  height: 40px;
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+  border: 1.5px solid #141416;
+}
+
+.sign_in{
+  padding-top: 11px;
+  border: 1.5px solid #3772ff;
+  width: 95px;
+  height: 40px;
+  text-align: center;
 }
 
 /* End Navigation */
@@ -120,32 +138,27 @@ a {
 .hero-title{
   position: static;
   width: 700px;
-  height: 128px;
-  left: 0px;
+  height: 117px;
+  left: 0;
   top: 100px;
-  font-family: 'poppinsSemiBold';
+  font-family: poppinsSemiBold;
   font-style: normal;
   font-weight: 600;
-  letter-spacing: 0.02em;
-  color: #000000;
-  font-size: 50px;
-  line-height: 64px;
-  margin-bottom: 22px;
+  letter-spacing: .02em;
+  color: #000;
+  font-size: 41px;
+  line-height: 50px;
+  margin-bottom: 2px;
 }
 
 .hero-content{
   width: 673px;
-  height: 117px;
-  left: 0px;
+  height: 97px;
   top: 265px;
   font-family: 'poppinsRegular';
-  font-style: normal;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 36px;
-  /* or 164% */
-  
-  letter-spacing: 0.02em;
+  font-size: 18px;
+  line-height: 29px;
 }
 
 .mock_parent{
@@ -159,7 +172,6 @@ a {
   left: 0px;
   top: 0px;
 
-  filter: drop-shadow(0px 10px 25px rgba(0, 0, 0, 0.25));
 
 
 
@@ -206,14 +218,15 @@ a {
   width: 60%
 }
 
-.mockup-pic2{
-  width: 749px;
-  height: 639px;
-  filter: drop-shadow(0px 10px 25px rgba(0, 0, 0, 0.25));
+.mockup-pic2 {
+  width: 100% !important;
+  height: auto;
+  filter: drop-shadow(0 10px 25px rgba(0,0,0,.25));
   flex: none;
   order: 0;
   flex-grow: 0;
   position: absolute;
+  max-width: 700px;
 }
 
 .hero-parent2{
@@ -221,36 +234,29 @@ a {
 }
 
 .hero-title2{
-  font-family: 'poppinsSemiBold';
   position: static;
-  height: 129px;
-  left: 50px;
+  width: 100%;
+  height: 117px;
+  left: 0;
   top: 100px;
+  font-family: poppinsSemiBold;
+  font-style: normal;
   font-weight: 600;
-  font-size: 50px;
-  line-height: 64px;
-  letter-spacing: 0.02em;
-  color: #000000;
-  margin-bottom: 26px;
+  letter-spacing: .02em;
+  color: #000;
+  font-size: 41px;
+  line-height: 50px;
+  margin-bottom: 2px;
 }
 
 .hero-content2{
+  width: 100%;
+  height: 97px;
+  top: 265px;
   font-family: 'poppinsRegular';
-  font-style: normal;
-  width: 533px;
-  height: 117px;
-  left: 50px;
-  top: 266px;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 36px;
-/* or 164% */
-
-letter-spacing: 0.02em;
-
-color: #000000;
-
-  /* margin: 25px 0px; */
+  font-size: 18px;
+  line-height: 29px;
 }
 
 
@@ -288,43 +294,35 @@ color: #000000;
 }
 
 .mockup3_firstsection{  
-  width: 30%
+  width: 30%;
+  padding-top: 70px;
 }
 
 .hero-title3{
   position: static;
-  width: 673px;
-  height: 128px;
-  left: 0px;
+  width: 700px;
+  height: 117px;
+  left: 0;
   top: 100px;
-
-  font-family: 'poppinsSemiBold';
+  font-family: poppinsSemiBold;
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
-  line-height: 64px;
-  /* or 123% */
-  
-  letter-spacing: 0.02em;
-  margin-bottom: 30px;
-  color: #000000;
+  letter-spacing: .02em;
+  color: #000;
+  font-size: 41px;
+  line-height: 50px;
+  margin-bottom: 2px;
 }
 
 .hero-content3{
   width: 673px;
-  height: 151px;
-  left: 0px;
+  height: 97px;
   top: 265px;
   font-family: 'poppinsRegular';
-  font-style: normal;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 36px;
-  /* or 164% */
-  
-  letter-spacing: 0.02em;
-  
-  color: #000000;
+  font-size: 18px;
+  line-height: 29px;
+  margin-bottom: 50px;
 }
 
 .hero3_button{
@@ -344,11 +342,15 @@ color: #000000;
 }
 
 .mockup-pic3{
-  height: 100%;
-  width: 68%;
+  height: auto;
+  width: 100%;
+  max-width: 850px;
+  -o-object-fit: cover;
   object-fit: cover;
   position: absolute;
   bottom: 42px;
+  right: 0px;
+  filter: drop-shadow(0px 10px 25px rgba(0, 0, 0, 0.25));
 }
 /* End Hero Section3 */
 
@@ -378,58 +380,41 @@ color: #000000;
   width: 50%;
 }
 
-.mockup-pic4{
-  height: 535px;
-  width: 58vw;
+.mockup-pic4 {
+  height: auto;
+  width: 100% !important;
   -o-object-fit: cover;
   object-fit: contain;
   position: relative;
   top: 66px;
+  max-width: 700px !important;
 }
 
 .hero-title4{
   position: static;
-  width: 707px;
-  height: 192px;
-  left: 0px;
-  top: 110px;
-  font-family: 'poppinsSemiBold';
+  width: 700px;
+  height: 117px;
+  left: 0;
+  top: 100px;
+  font-family: poppinsSemiBold;
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
-  line-height: 64px;
-  /* or 123% */
-  
-  letter-spacing: 0.02em;
-  
-  color: #000000;
-  
-  
-  /* Inside auto layout */
-  
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 37px 0px;
+  letter-spacing: .02em;
+  color: #000;
+  font-size: 41px;
+  line-height: 50px;
+  margin-bottom: 50px;
 }
 
 .hero-content4{
-  position: static;
   width: 673px;
-  height: 153px;
-  left: 0px;
-  top: 339px;
+  height: 97px;
+  top: 265px;
   font-family: 'poppinsRegular';
-  font-style: normal;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 36px;
-  /* or 164% */
-  
-  letter-spacing: 0.02em;
-  
-  color: #000000;
-  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 29px;
+  margin-bottom: 50px;
 }
 /* End Hero Section4 */
 
