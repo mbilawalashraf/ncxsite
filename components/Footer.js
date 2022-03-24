@@ -122,47 +122,6 @@ function Footer () {
                             </div>
                         </div>
                     </div>
-                    <div className="text-left">
-                        <div className="grid grid-cols-6 card_group">
-                            <div className="visa_card">
-                                <a href="#"
-                                    className="lg:inline"><img className=""
-                                    src="/visa.png" alt="Mock Up Data" />
-                                    
-                                </a>
-                            </div>
-                            <div className="bt_card">
-                                <a href="#"
-                                    className="lg:inline"><img className=""
-                                    src="/bt.png" alt="Mock Up Data" />
-                                </a>
-                            </div>
-                            <div className="sepa_card">
-                                <a href="#"
-                                    className="lg:inline"><img className=""
-                                    src="/sepa.png" alt="Mock Up Data" />
-                                </a>
-                            </div>
-                            <div className="advcash_card">
-                                <a href="#"
-                                    className="lg:inline"><img className=""
-                                    src="/advcash.png" alt="Mock Up Data" />
-                                </a>
-                            </div>
-                            <div className="pm_card">
-                                <a href="#"
-                                    className="lg:inline"><img className=""
-                                    src="/pm.png" alt="Mock Up Data" />
-                                </a>
-                            </div>
-                            <div className="xoo_card">
-                                <a href="#"
-                                    className="lg:inline"><img className=""
-                                    src="/xoo.png" alt="Mock Up Data" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </footer>
     )

@@ -561,4 +561,106 @@ footer p{
   top: 30px;
   left: 100px;
 }
+
+.mock_parent_security2{
+  height: 600px;
+  position: relative;
+}
+
+.mock_parent_security2 img{
+  position: absolute;
+  width: 67%;
+  right: 0px
+}
+
+.mock_parent_security3{
+  height: 600px;
+  position: relative;
+}
+
+.mock_parent_security3 img{
+  position: absolute;
+  width: 67%;
+  right: 0px
+}
+
+.mock_parent_security4{
+  height: 600px;
+  position: relative;
+}
+
+.mock_parent_security4 img{
+  position: absolute;
+  width: 67%;
+  right: 0px
+}
+
+.mock_parent_security5{
+  height: 600px;
+  position: relative;
+}
+
+.mock_parent_security5 img{
+  position: absolute;
+  width: 67%;
+  right: 0px
+}
+
+.mock_parent_security6{
+  height: 600px;
+  position: relative;
+}
+
+.mock_parent_security6 img{
+  position: absolute;
+  width: 67%;
+  right: 0px
+}
+
+.hero-content-security{
+  width: 673px;
+  height: 117px;
+  left: 0px;
+  top: 265px;
+  font-family: 'poppinsRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+}
+
+
+.reverse_flex{
+  flex-direction: row-reverse;
+}
+
+.reverse_img{
+  position: absolute;
+  width: 67%;
+  left: 0px;
+}
+
+.content_reverse{
+  position: relative;
+  width: 100%;
+}
+
+.content_reverse h1{
+  margin-left: 67px;
+}
+
+.hero-content-security_reverse{
+  width: 673px;
+  height: 117px;
+  left: 0px;
+  top: 265px;
+  font-family: 'poppinsRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+  margin-left: 67px;
+}
 /* End Security Page */

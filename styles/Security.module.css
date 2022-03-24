@@ -190,3 +190,22 @@
     font-family: 'DMSansRegular';
 }
 /* End Step Section */
+
+/* Hero 3 Section */
+.hero3{
+    position: static;
+    /* height: 108px; */
+    left: 0;
+    top: 20px;
+    font-family: poppinsSemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+    color: #000;
+    padding-bottom: 30px;
+}
+
+
+
+/* End Hero 3 Section */
