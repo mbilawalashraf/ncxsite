@@ -1,6 +1,6 @@
 function Nav() {
     return (
-        <nav className="bg-white shadow-lg main-nav">
+        <nav className="bg-white main-nav">
                 <div className="max-w-screen-xl mx-auto px-4">
                     <div className="flex justify-between">
                         <div className="flex space-x-7">

@@ -89,8 +89,8 @@ function Home({ coinsData }) {
                                 src="/mockup2.png" alt="Mock Up Data" />
                         </div>
 
-                        <div className="flex flex-col w-full lg:w-1/2 ml-14 hero-parent2">
-                            <div className="max-w-lg">
+                        <div className="flex flex-col w-full lg:w-1/2 hero-parent2">
+                            <div className="max-w-lg w-full">
                                 <h1 className="hero-title2">Fast Deposit &<br />Withdrawals</h1>
                                 <p className="mt-0 hero-content2">From Visa & Mastercard to instant SEPA<br />deposits, youve got options for getting the<br />funds you need, when you need them.</p>
                                 <div className="grid grid-cols-4 store-logo2 py-4">
