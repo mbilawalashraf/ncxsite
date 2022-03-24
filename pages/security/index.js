@@ -135,7 +135,7 @@ function Security() {
             <div className="bg-white lg:h-full lg:py-16">
                 <div className="max-w-screen-lg mx-auto">
                 <div className="container flex px-6 mx-auto">
-                        <div className="flex flex-col w-full lg:flex-row pt-36">
+                        <div className="flex flex-col w-full lg:flex-row pt-52">
                             <div className="max-w-lg">
                                 <h1 className={styles.hero3}>2FA Authentication</h1>
                                 <p className="mt-0 hero-content-security">Google Authenticator<br />SMS Authentication<br />Email Authentication</p>
@@ -154,7 +154,7 @@ function Security() {
             <div className="bg-white lg:h-full lg:py-16">
                 <div className="max-w-screen-lg mx-auto">
                 <div className="container flex px-6 mx-auto reverse_flex">
-                        <div className="flex flex-col w-full lg:flex-row pt-36">
+                        <div className="flex flex-col w-full lg:flex-row pt-52">
                             <div className="max-w-lg content_reverse">
                                 <h1 className={styles.hero3}>Biometric<br />Identification</h1>
                                 <p className="mt-0 hero-content-security_reverse">Using Fingerprint & Face Recognition<br />for Additional Convenience and Security.</p>
@@ -173,7 +173,7 @@ function Security() {
             <div className="bg-white lg:h-full lg:py-16">
                 <div className="max-w-screen-lg mx-auto">
                 <div className="container flex px-6 mx-auto">
-                        <div className="flex flex-col w-full lg:flex-row pt-36">
+                        <div className="flex flex-col w-full lg:flex-row pt-52">
                             <div className="max-w-lg">
                                 <h1 className={styles.hero3}>24/7 Support</h1>
                                 <p className="mt-0 hero-content-security">Dedicated 24/7 Live Customer Service<br />and Tech Support via email and live chat<br />to answer your questions and support<br />enquiries at any time.</p>
@@ -192,7 +192,7 @@ function Security() {
             <div className="bg-white lg:h-full lg:py-16">
                 <div className="max-w-screen-lg mx-auto">
                 <div className="container flex px-6 mx-auto reverse_flex">
-                        <div className="flex flex-col w-full lg:flex-row pt-36">
+                        <div className="flex flex-col w-full lg:flex-row pt-52">
                             <div className="max-w-lg content_reverse">
                                 <h1 className={styles.hero3}>Whitelisting</h1>
                                 <p className="mt-0 hero-content-security_reverse">Whitelisting your wallet addresses prevents<br />a third party, in the event this third party has<br />acquired your credentials, from withdrawing<br />funds to an undesired wallet address.</p>
@@ -211,7 +211,7 @@ function Security() {
             <div className="bg-white lg:h-full lg:py-16">
                 <div className="max-w-screen-lg mx-auto">
                 <div className="container flex px-6 mx-auto">
-                        <div className="flex flex-col w-full lg:flex-row pt-36">
+                        <div className="flex flex-col w-full lg:flex-row pt-40">
                             <div className="max-w-lg">
                                 <h1 className={styles.hero3}>Withdrawal<br />Confirmations<br />& Log-in Alerts</h1>
                                 <p className="mt-0 hero-content-security">Users receive Log-in alerts and<br />Withdrawal Confirmations to their email<br />address to prevent unauthorised access<br />or withdrawal attempt go unnoticed by<br />the account holder.</p>
