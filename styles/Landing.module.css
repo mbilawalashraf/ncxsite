@@ -1,61 +1,45 @@
 .hero1_title{
     position: static;
-    /* width: 280px; */
-    left: 0px;
-    top: 0px;
-    
-    font-family: 'DMSansBold';
+    width: 700px;
+    height: 80px;
+    left: 0;
+    top: 100px;
+    font-family: poppinsSemiBold;
     font-style: normal;
-    font-weight: 700;
-    font-size: 58px;
-    /* identical to box height, or 93% */
-    height: auto;
-    padding-bottom: 12px;
-    line-hight: 74px;
-    
-    color: #000000;
-    
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    font-weight: 600;
+    letter-spacing: .02em;
+    color: #000;
+    font-size: 41px;
+    line-height: 50px;
+    margin-bottom: 2px;
 }
 
 .hero1_p{
-    width: 529px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
-
+    width: 673px;
+    height: 85px;
+    top: 265px;
     font-family: 'poppinsRegular';
-    font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    /* or 92% */
-    line-height: 34px;
-
-    color: #000000;
-    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 29px;
 }
 
 .hero1_button{
-    width: 180px !important;
-    min-width: 180px !important;
-    height: 43px !important;
-    background: #3772FF;
+    width: 167px!important;
+    min-width: 167px!important;
+    height: 41px!important;
+    background: #3772ff;
     text-align: center;
     justify-content: center;
     margin-top: 15px;
 }
 
 .hero1_button a{
-    font-family: 'DMSansRegular';
+    font-family: DMSansRegular;
     position: relative;
     top: 9px;
-    color: white;
-    font-size: 16px;
+    color: #fff;
+    font-size: 15px;
     font-weight: 500;
 }
 
@@ -209,12 +193,12 @@
     font-family: 'poppinsRegular';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 36px;
+    font-size: 18px;
+    line-height: 29px;
     /* or 164% */
     
     letter-spacing: 0.02em;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 /* end hero section 2 */
 
@@ -245,14 +229,14 @@
 /* hero section 3*/
 .hero_content_landing3{
     width: 673px;
-    height: 117px;
+    height: 110px;
     left: 0px;
     top: 265px;
     font-family: 'poppinsRegular';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
-    line-height: 36px;
+    font-size: 18px;
+    line-height: 29px;
     /* or 164% */
     
     letter-spacing: 0.02em;

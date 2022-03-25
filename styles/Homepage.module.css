@@ -1,0 +1,568 @@
+/* Hero Section */
+.hero1_title{
+    position: static;
+    width: 700px;
+    height: 80px;
+    left: 0;
+    top: 100px;
+    font-family: poppinsSemiBold;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: .02em;
+    color: #000;
+    font-size: 41px;
+    line-height: 50px;
+    margin-bottom: 2px;
+}
+
+.hero1_p{
+    width: 673px;
+    height: 85px;
+    top: 265px;
+    font-family: 'poppinsRegular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.hero1_button{
+    width: 167px!important;
+    min-width: 167px!important;
+    height: 41px!important;
+    background: #3772ff;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.hero1_button a{
+    font-family: DMSansRegular;
+    position: relative;
+    top: 9px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* End Hero Section */
+
+/* Hero Section 2 */
+.hero_title_homepage2{
+    position: static;
+    width: 700px;
+    height: 65px;
+    left: 0;
+    top: 100px;
+    font-family: poppinsSemiBold;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: .02em;
+    color: #000;
+    font-size: 41px;
+    line-height: 50px;
+    margin-bottom: 2px;
+}
+
+.hero_content_landing2{
+    width: 333px;
+    height: 230px;
+    left: 0px;
+    top: 265px;
+    font-family: 'poppinsRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+/* End Hero Section 2 */
+
+/* Hero Section 3 */
+.hero3{
+    position: static;
+    /* height: 108px; */
+    left: 0;
+    top: 20px;
+    font-family: poppinsSemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+    color: #000;
+    padding-bottom: 30px;
+}
+
+.hero_content_landing3{
+    width: 673px;
+    height: 110px;
+    left: 0px;
+    top: 265px;
+    font-family: 'poppinsRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    /* or 164% */
+    
+    letter-spacing: 0.02em;
+    /* margin-bottom: 50px; */
+  }
+
+  .hero1_button{
+    width: 167px!important;
+    min-width: 167px!important;
+    height: 41px!important;
+    background: #3772ff;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.hero1_button a{
+    font-family: DMSansRegular;
+    position: relative;
+    top: 9px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* End Hero Section 3 */
+
+/* Hero Section 4 */
+.hero_content_landing{
+    width: 673px;
+    height: 117px;
+    left: 0px;
+    top: 265px;
+    font-family: 'poppinsRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    /* or 164% */
+    
+    letter-spacing: 0.02em;
+    margin-bottom: 30px;
+  }
+
+  .hero3_button{
+    width: 180px !important;
+    min-width: 180px !important;
+    height: 43px !important;
+    background: #3772FF;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.hero3_button a{
+    font-family: 'DMSansRegular';
+    position: relative;
+    top: 9px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* End Hero Section 4 */
+
+/* Coins List */
+.coin_scroll{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 736px;
+    height: 838px;
+    margin: auto;
+    background-color: white;
+}
+
+.coin_scroll h1{
+    font-family: 'poppinsSemiBold';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    position: static;
+    width: 651px;
+    height: 32px;
+    left: 0px;
+    margin: 32px;
+    top: 0px;
+}
+/* End Coins List */
+
+/* Steps */
+.steps_title1{
+    position: static;
+    height: 54px;
+    left: 0px;
+    top: 20px;
+    
+    font-family: 'poppinsRegular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 54px;
+    /* identical to box height, or 104% */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.steps_background1{
+    align-items: center;
+    /* background-color: #f2f3f7; */
+    border-radius: 50%;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    width: 70px;
+    margin: auto;
+}
+
+.steps_h1_1{
+    position: static;
+    width: 300px;
+    height: 45px;
+    left: 20px;
+    top: 150px;
+
+    font-family: 'DMSansBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    /* or 158% */
+
+    text-align: center;
+
+    color: #3772FF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 30px 0px;
+}
+
+.steps_p_1{
+    position: static;
+    width: 300px;
+    height: 120px;
+    left: 20px;
+    top: 225px;
+
+    font-family: 'poppinsRegular';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 22px;
+    line-height: 36px; */
+    /* or 164% */
+    line-height: 36px;
+    font-size: 22px;
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    text-align: center;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 30px 0px;
+}
+
+.steps_p_1 p{
+    line-height: 26px;
+    font-size: 18px;
+}
+/* End Steps */
+
+/* Hero Section 4 */
+.hero_title_homepage4{
+    position: static;
+    width: 700px;
+    height: 65px;
+    left: 0;
+    top: 100px;
+    font-family: poppinsSemiBold;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: .02em;
+    color: #000;
+    font-size: 41px;
+    line-height: 50px;
+    margin-bottom: 2px;
+}
+
+.hero_content_subtitle{
+    position: static;
+    width: 555px;
+    height: 41px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: 'poppinsMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    /* or 164% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+
+.hero_content_landing4{
+    width: 555px;
+    height: 200px;
+    left: 0px;
+    top: 265px;
+    font-family: 'poppinsRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    /* or 164% */
+    
+    letter-spacing: 0.02em;
+    /* margin-bottom: 50px; */
+  }
+
+  .hero4_button{
+    width: 220px !important;
+    min-width: 220px !important;
+    height: 43px !important;
+    background: #3772FF;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.hero4_button a{
+    font-family: 'DMSansRegular';
+    position: relative;
+    top: 9px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* End Hero Section 4 */
+
+/* Steps2 Section */
+/* Steps Section */
+.steps_title{
+    position: static;
+    height: 108px;
+    left: 0;
+    top: 20px;
+    font-family: poppinsSemiBold;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    color: #000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 60px;
+}
+
+.steps_background{
+    align-items: center;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    width: 70px;
+    margin: auto;
+}
+
+.steps_background .icon_register img{
+    width: 69px;
+    height: 69px;
+}
+
+.steps_background .icon_verify img{
+    width: 69px;
+    height: 69px;
+}
+.steps_background .icon_deposit img {
+    width: 69px;
+    height: 69px;
+}
+
+.steps_background .icon_trade img {
+    width: 69px;
+    height: 69px;
+}
+
+.steps_h1{
+    position: static;
+    width: 300px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'DMSansBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 30px;
+    /* or 158% */
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 30px 0px;
+    margin-bottom: 0px !important;
+    width: 100%;
+}
+
+.steps_h1 h1{
+    font-size: 19px;
+}
+
+.steps_p{
+    position: static;
+    width: 300px;
+    height: 120px;
+    left: 0px;
+    top: 80px;
+
+    font-family: 'poppinsRegular';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 22px;
+    line-height: 36px; */
+    /* or 164% */
+    line-height: 28px;
+    font-size: 18px;
+
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+    text-align: center;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 30px 0px;
+    margin-bottom: 0px !important;
+    width: 100%;
+}
+
+.steps_p p{
+    line-height: 26px;
+    font-size: 15px;
+}
+
+.hero2_button{
+    width: 180px !important;
+    min-width: 180px !important;
+    height: 43px !important;
+    background: #3772FF;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.hero2_button a{
+    position: relative;
+    top: 9px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'DMSansRegular';
+}
+/* End Step Section */
+
+/* Staking */
+.hero_title_staking{
+    position: static;
+    width: 700px;
+    height: 180px;
+    left: 0;
+    top: 100px;
+    font-family: poppinsSemiBold;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: .02em;
+    color: #000;
+    font-size: 41px;
+    line-height: 50px;
+    margin-bottom: 2px;
+  }
+  
+  .hero_p_staking{
+    width: 673px;
+    height: 100px;
+    top: 265px;
+    font-family: 'poppinsRegular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+  }
+  
+/* End Staking */
+
+/* Started Staking Section */
+.hero_title_started_staking{
+    position: static;
+    width: 500px;
+    height: 130px;
+    left: 0;
+    top: 100px;
+    font-family: poppinsSemiBold;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: .02em;
+    color: #000;
+    font-size: 41px;
+    line-height: 50px;
+    margin-bottom: 2px;
+}
+
+.hero_p_started_staking{
+    width: 500px;
+    height: 139px;
+    top: 265px;
+    font-family: 'poppinsRegular';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+}
+/* End Started Staking */

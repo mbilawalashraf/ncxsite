@@ -152,9 +152,6 @@ function Landing({ coinsData }) {
             </div>
             {/* End Steps Section */}
             {/* Coin List Section */}
-            {/* SearchBar */}
-            
-            {/* SearchBar */}
             <div className="bg-white lg:h-full bg_coinslist">
                 <div className="max-w-screen-xl mx-auto">
                     <div className={styles.coin_scroll}>

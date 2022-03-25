@@ -93,18 +93,19 @@ a {
 }
 
 .primary-nav{
-  font-family: 'DMSansRegular';
+  font-family: 'poppinsMedium';
   font-style: normal;
   font-weight: 500;
   line-height: 16px;
+  letter-spacing: 0px;
 }
 
 .secondary-nav{
-  font-family: "DMSansRegular";
+  font-family: 'poppinsMedium';
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
+  letter-spacing: 0px;
 }
 
 .secondary-nav .sign_up{
@@ -675,3 +676,50 @@ footer p{
   margin-left: 67px;
 }
 /* End Security Page */
+
+
+/* Home Page */
+.mock_parent_homepage4{
+  height: 654px;
+  position: relative;
+  width: 490px;
+}
+
+.mockup-pic_homepage4{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  width: 492px;
+  height: 654px;
+}
+/* End Home Page */
+
+/* Staking */
+.staking_vid_parent{
+  position: relative;
+  height: 500px;
+}
+
+.staking_vid{
+  position: absolute;
+  height: 600px;
+  width: 500px;
+}
+/* End Staking */
+
+/* Started Staking Section */
+.mock_parent_staking2{
+  height: 600px;
+  position: relative;
+}
+
+.staking_vid2{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+/* End Started Staking Section */
