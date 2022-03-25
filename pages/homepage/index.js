@@ -55,16 +55,16 @@ function HomePage({ coinsData }) {
                             </div>
                         </div>
 
-                        <div className="flex items-center justify-end w-full">
+                        <div className="flex items-center justify-end w-full mock_parent_staking2">
                             {/* <img className="object-cover w-full h-full max-w-2xl rounded-md mockup-pic"
                                 src="/mockup.png" alt="Mock Up Data" /> */}
                             <video 
                                 autoPlay
                                 loop
                                 muted
-                                className="object-cover w-3/5 h-full rounded-md"
+                                className="object-cover w-3/5 h-full rounded-md staking_vid2"
                             >
-                            <source src="/buycrypto2.mp4" type="video/mp4" />
+                            <source src="/draft.mp4" type="video/mp4" />
                             </video>
                         </div>
                     </div>
@@ -408,7 +408,7 @@ function HomePage({ coinsData }) {
         <div className="bg-white lg:h-full lg:py-16">
                 <div className="max-w-screen-xl mx-auto">
                 <div className="container flex px-6 mx-auto reverse_flex">
-                <div className="flex flex-col lg:flex-row pt-36">
+                <div className="flex flex-col lg:flex-row pt-16">
                             <div className="max-w-lg hero1_section_text">
                                 <h1 className={styles.hero_title_started_staking}>Get Started in Minutes<br />in 2 Simple Steps</h1>
                                 <p className={styles.hero_p_started_staking}>Sign up to create NCX account<br />Verify your identity & Start Buying,<br />Selling, Trading and Staking<br />Cryptocurrencies in Minutes</p>
@@ -423,14 +423,14 @@ function HomePage({ coinsData }) {
 
                         
 
-                        <div className="flex items-center justify-left w-full h-96 mock_parent_staking2">
+                        <div className="flex items-center justify-left w-full h-96 signup_vid_parent">
                         <video 
                                 autoPlay
                                 loop
                                 muted
-                                className="object-cover w-3/5 h-full rounded-md staking_vid2"
+                                className="object-cover w-3/5 h-full rounded-md signup_vid"
                             >
-                            <source src="/draft.mp4" type="video/mp4" />
+                            <source src="/signup.mp4" type="video/mp4" />
                             </video>
                         </div>
                     </div>

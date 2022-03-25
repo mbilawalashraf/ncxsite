@@ -722,4 +722,15 @@ footer p{
   width: 100%;
   object-fit: contain;
 }
+
+.signup_vid_parent{
+  position: relative;
+  height: 500px;
+}
+
+.signup_vid{
+  position: absolute;
+  height: 600px;
+  width: 500px;
+}
 /* End Started Staking Section */
