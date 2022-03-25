@@ -430,7 +430,7 @@ function HomePage({ coinsData }) {
                                 muted
                                 className="object-cover w-3/5 h-full rounded-md signup_vid"
                             >
-                            <source src="/signup.mp4" type="video/mp4" />
+                            <source src="/signup1.mp4" type="video/mp4" />
                             </video>
                         </div>
                     </div>
