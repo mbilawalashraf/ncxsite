@@ -771,9 +771,7 @@ footer p{
 .hero1_section_text {
   margin-left: 90px !important;
 }
-.store-logo{
-  margin-left: 0px !important;
-}
+
 /* .image_div, .store_images {
   width: 50% !important;
   height: 60px;
@@ -782,9 +780,9 @@ footer p{
 .appstore{
   left: -16px !important;
 }
-.store-logo .googlestore{
+/* .store-logo .googlestore{
   right: 50px !important;
-}
+} */
 .image_div{
   position: relative;
     left: -16px;
