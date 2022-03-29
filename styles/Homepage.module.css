@@ -572,3 +572,23 @@
 .hero1_title, .hero1_p{
     width: auto !important;
 }
+
+/* Carousel2 */
+.carousel_parent_2{
+    position: static;
+    width: 360px;
+    height: 45px;
+    left: 20px;
+    top: 150px;
+    font-family: 'DMSansBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    color: #3772FF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+/* End Carousel2 */

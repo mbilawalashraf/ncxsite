@@ -330,29 +330,20 @@ function HomePage({ coinsData }) {
                 <div className="max-w-screen-xl mx-auto">
                 <div className="carousel carousel-center">
                     <div id="slide1" className="carousel-item relative w-full carousel2_img justify-center">
-                    <div className="grid grid-cols-3 mt-14">
+                    <div className="grid grid-cols-3">
                         <div>
-                            <div className={styles.steps_h1_1}>
-                                <img src="/media1.png" />
-                            </div>
-                            <div className={styles.steps_p_1}>
-                                <p>Cryptocurrency<br />Trading Pairs</p>
+                            <div className={styles.carousel_parent_2}>
+                                <img src="/media3.png" />
                             </div>
                         </div>
                         <div>
-                            <div className={styles.steps_h1_1}>
+                            <div className={styles.carousel_parent_2}>
                             <img src="/media2.png" />
                             </div>
-                            <div className={styles.steps_p_1}>
-                                <p>NCX Team Members<br />through 14 Countries</p>
-                            </div>
                         </div>
                         <div>
-                            <div className={styles.steps_h1_1}>
+                            <div className={styles.carousel_parent_2}>
                             <img src="/media3.png" />
-                            </div>
-                            <div className={styles.steps_p_1}>
-                                <p>Live Customer Service,<br />Tech Support & OTC Desk</p>
                             </div>
                         </div>
                     </div>
@@ -363,28 +354,70 @@ function HomePage({ coinsData }) {
                             </div>
                         </div>
                     </div> 
-                    <div id="slide2" className="carousel-item relative w-full carousel2_img">
-                        <img src="/4.png" alt="Pizza" />
-                        <img src="/5.png" alt="Pizza" />
-                        <img src="/6.png" alt="Pizza" />
+                    <div id="slide2" className="carousel-item relative w-full carousel2_img justify-center">
+                    <div className="grid grid-cols-3">
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                                <img src="/media3.png" />
+                            </div>
+                        </div>
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                            <img src="/media2.png" />
+                            </div>
+                        </div>
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                            <img src="/media3.png" />
+                            </div>
+                        </div>
+                    </div>
                         <div className="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
                             <a href="#slide1" className="btn btn-circle">❮</a> 
                             <a href="#slide3" className="btn btn-circle">❯</a>
                         </div>
                     </div> 
-                    <div id="slide3" className="carousel-item relative w-full carousel2_img">
-                        <img src="/7.png" alt="Pizza" />
-                        <img src="/8.png" alt="Pizza" />
-                        <img src="/9.png" alt="Pizza" />
+                    <div id="slide3" className="carousel-item relative w-full carousel2_img justify-center">
+                    <div className="grid grid-cols-3">
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                                <img src="/media3.png" />
+                            </div>
+                        </div>
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                            <img src="/media2.png" />
+                            </div>
+                        </div>
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                            <img src="/media3.png" />
+                            </div>
+                        </div>
+                    </div>
                         <div className="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
                         <a href="#slide2" className="btn btn-circle">❮</a> 
                         <a href="#slide4" className="btn btn-circle">❯</a>
                         </div>
                     </div> 
-                    <div id="slide4" className="carousel-item relative w-full carousel2_img">
-                        <img src="/10.png" alt="Pizza" />
-                        <img src="/11.png" alt="Pizza" />
-                        <img src="/12.png" alt="Pizza" />
+                    <div id="slide4" className="carousel-item relative w-full carousel2_img justify-center">
+                    <div className="grid grid-cols-3">
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                                <img src="/media3.png" />
+                            </div>
+                        </div>
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                            <img src="/media2.png" />
+                            </div>
+                        </div>
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                            <img src="/media3.png" />
+                            </div>
+                        </div>
+                    </div>
                         <div className="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
                         <a href="#slide3" className="btn btn-circle">❮</a> 
                         <a href="#slide1" className="btn btn-circle">❯</a>
