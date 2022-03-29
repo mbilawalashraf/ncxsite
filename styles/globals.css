@@ -734,3 +734,103 @@ footer p{
   width: 500px;
 }
 /* End Started Staking Section */
+
+/* Bilawal CSS Styling starts from here */
+.staking_vid2{
+  width: 100%;
+  max-width: 1519px !important;
+  min-width: 1519px;
+  height: 650px;
+  min-height: 29px !important;
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+  /* top: -20px; */
+  border-radius: 0px
+}
+.newlyadded_class{
+  padding-top: 20px !important;
+  padding: 0px;
+}
+.mock_parent_staking2{
+  width: 100%;
+  max-width: 1519px !important;
+  min-width: 1519px;
+  height: 650px;
+  min-height: 29px !important;
+  object-fit: cover;
+  border-radius: 0px
+}
+.main_hero_section {
+  max-width: 1519px !important;
+}
+.h1_parent_landing{
+  width: 600px;
+  max-width: 600px;
+}
+.hero1_section_text {
+  margin-left: 90px !important;
+}
+.store-logo{
+  margin-left: 0px !important;
+}
+/* .image_div, .store_images {
+  width: 50% !important;
+  height: 60px;
+  margin-right: 10px;
+} */
+.appstore{
+  left: -16px !important;
+}
+.store-logo .googlestore{
+  right: 50px !important;
+}
+.image_div{
+  position: relative;
+    left: -16px;
+}
+
+.mock_parent_staking2{
+  animation: fadeInLeft 3s;
+  animation-direction: alternate;
+}
+@keyframes fadeInLeft {
+  0% {
+     opacity: 0;
+     transform: translateX(-20px);
+     left: -960px;
+     top: 0px;
+     background: white;
+  }
+  100% {
+     opacity: 1;
+     transform: translateX(0);
+     left: 0px;
+     top: 0px;
+     background: white;
+  }
+}   
+
+.homepage_hero_title{
+  display: none;
+}
+
+.Homepage_coin_scroll__X_qtN::-webkit-scrollbar, .Landing_coin_scroll__n2vvA::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+  height: 1px;
+  min-height: 5px;
+  max-height: 5px;
+}
+
+.Homepage_coin_scroll__X_qtN::-webkit-scrollbar-track, .Landing_coin_scroll__n2vvA::-webkit-scrollbar-track {
+  background: #FFFFFF;        /* color of the tracking area */
+  min-height: 5px;
+  height: 5px;
+  max-height: 5px;
+}
+
+.Homepage_coin_scroll__X_qtN::-webkit-scrollbar-thumb, .Landing_coin_scroll__n2vvA::-webkit-scrollbar-thumb  {
+  background-color: #B1B5C3;    /* color of the scroll thumb */
+  border-radius: 15px;       /* roundness of the scroll thumb */
+  border: 3px solid white;  /*creates padding around scroll thumb */
+}

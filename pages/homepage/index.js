@@ -10,6 +10,7 @@ import { useState } from 'react';
 
 import Footer from "../../components/Footer"
 
+
 function HomePage({ coinsData }) {
 
     const [search, setSearch] = useState('');
@@ -26,23 +27,23 @@ function HomePage({ coinsData }) {
         <Nav />
         {/* Hero Section */}
         <div className="bg-white lg:h-full">
-                <div className="max-w-screen-xl mx-auto pb-28">
-                    <div className="container flex px-6 pt-20 mx-auto">
-                        <div className="flex flex-col lg:flex-row h1_parent_landing">
+                <div className="max-w-screen-xl mx-auto pb-28 main_hero_section">
+                    <div className="container newlyadded_class flex px-6 pt-20 mx-auto">
+                        <div className="flex flex-col lg:flex-row h1_parent_landing homepage_hero_title">
                             <div className="max-w-lg hero1_section_text">
                                 <h1 className={styles.hero1_title}>Buy Crypto</h1>
                                 <p className={styles.hero1_p}>Buy, sell, trade and hold 200+<br />cryptocurrencies on NCX</p>
                                 <div className="grid grid-cols-4 store-logo">
-                                    <div className="">
+                                    <div className="image_div">
                                         <a href="#"
-                                            className="lg:inline"><img className="appstore"
+                                            className="lg:inline store_images"><img className="appstore"
                                             src="/appstore.svg" alt="Mock Up Data" />
                                             
                                         </a>
                                     </div>
                                     <div className="">
                                         <a href="#"
-                                            className="lg:inline"><img className="googlestore"
+                                            className="lg:inline store_images"><img className="googlestore"
                                             src="/googleplay.svg" alt="Mock Up Data" />
                                         </a>
                                     </div>
@@ -77,7 +78,7 @@ function HomePage({ coinsData }) {
                     <div className="grid grid-cols-4 mt-14">
                         <div>
                             <div className={styles.steps_h1_1}>
-                                <h1>200+</h1>
+                                <h1 id="countdown">145+</h1>
                             </div>
                             <div className={styles.steps_p_1}>
                                 <p>NCX Platform is available<br />in over 200 Countries</p>
@@ -111,29 +112,55 @@ function HomePage({ coinsData }) {
                 </div>
             </div>
             {/* End Steps Section */}
+            {/* First Carousel */}
+            <div className="bg-white lg:h-full lg:py-16">
+                <div>
+                    <div className="container flex py-32 mx-auto">
+                        <div class="carousel carousel-center p-4 space-x-4">
+                            <div class="carousel-item">
+                            <div className="flex flex-col w-full lg:flex-row h1_parent">
+                            <div className="max-w-lg">
+                                <h1 className={styles.hero_title_homepage2}>NCX</h1>
+                                <p className={styles.hero_content_landing2}>NCX is an innovative All-in-1 Cryptocurrency Exchange, Trading, Lending & Staking Platform for WEB 3.0, combining the most advanced CEX & DEX features on one Licensed and Secure Platform available in over 200 Countries with offices in Europe, Asia and HQ in Middle East.</p>
+                                <div className={styles.hero3_button}>
+                                    <a href="#"
+                                        className="">Get Started
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                            </div> 
+                            <div class="carousel-item">
+                                <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=500B67FB" />
+                            </div> 
+                            <div class="carousel-item">
+                                <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=A89D0DE6" />
+                            </div> 
+                            <div class="carousel-item">
+                                <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=225E6693" />
+                            </div> 
+                            <div class="carousel-item">
+                                <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=9D9539E7" />
+                            </div> 
+                            <div class="carousel-item">
+                                <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=BDC01094" />
+                            </div> 
+                            <div class="carousel-item">
+                                <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=7F5AE56A" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* End First Carousel */}
             {/* Hero Section 2 */}
-        <div className="bg-white lg:h-full lg:py-16">
+        {/* <div className="bg-white lg:h-full lg:py-16">
                 <div className="max-w-screen-xl mx-auto">
                     <div className="container flex px-6 py-32 mx-auto">
                         <div className="flex flex-col w-full lg:flex-row h1_parent">
                             <div className="max-w-lg">
                                 <h1 className={styles.hero_title_homepage2}>NCX</h1>
                                 <p className={styles.hero_content_landing2}>NCX is an innovative All-in-1 Cryptocurrency Exchange, Trading, Lending & Staking Platform for WEB 3.0, combining the most advanced CEX & DEX features on one Licensed and Secure Platform available in over 200 Countries with offices in Europe, Asia and HQ in Middle East.</p>
-                                {/* <div className="grid grid-cols-4 store-logo">
-                                    <div className="">
-                                        <a href="#"
-                                            className="lg:inline"><img className="appstore"
-                                            src="/appstore.svg" alt="Mock Up Data" />
-                                            
-                                        </a>
-                                    </div>
-                                    <div className="">
-                                        <a href="#"
-                                            className="lg:inline"><img className="googlestore"
-                                            src="/googleplay.svg" alt="Mock Up Data" />
-                                        </a>
-                                    </div>
-                                </div> */}
                                 <div className={styles.hero3_button}>
                                     <a href="#"
                                         className="">Get Started
@@ -142,13 +169,10 @@ function HomePage({ coinsData }) {
                             </div>
                         </div>
 
-                        {/* <div className="flex items-center justify-center w-full h-96 mock_parent">
-                            <img className="object-cover w-full h-full max-w-2xl rounded-md mockup-pic"
-                                src="/mockup.png" alt="Mock Up Data" />
-                        </div> */}
+                      
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* End Hero Section 2 */}
         {/* Hero Section 3 */}
         <div className="bg-white lg:h-full lg:py-16">
@@ -455,8 +479,25 @@ export const getServerSideProps = async () => {
         coinsData
       }
     }
-  
-    
-  
   }
+
+
+// Bilawal coding starts from here
+
+// function animateValue(obj, start, end, duration) {
+//     let startTimestamp = null;
+//     const step = (timestamp) => {
+//       if (!startTimestamp) startTimestamp = timestamp;
+//       const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+//       obj.innerHTML = Math.floor(progress * (start - end) + end);
+//       if (progress < 1) {
+//         window.requestAnimationFrame(step);
+//       }
+//     };
+//     window.requestAnimationFrame(step);
+//   }
+  
+//   const obj = document.getElementById("countdown");
+//   animateValue(obj, 145, 0, 5000);
+
 
