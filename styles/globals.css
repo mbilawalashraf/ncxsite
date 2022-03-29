@@ -834,3 +834,22 @@ footer p{
   border-radius: 15px;       /* roundness of the scroll thumb */
   border: 3px solid white;  /*creates padding around scroll thumb */
 }
+
+
+/* Carousel */
+.carousel_img{
+  height: 400px;
+}
+
+.carousel2_img{
+  height: 285px;
+}
+
+.carousel_control{
+  display: none;
+}
+
+.carousel_parent:hover + .carousel_control{
+  display: block
+}
+/* End Carousel */

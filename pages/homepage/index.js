@@ -116,10 +116,10 @@ function HomePage({ coinsData }) {
             <div className="bg-white lg:h-full lg:py-16">
                 <div>
                     <div className="container flex py-32 mx-auto">
-                        <div class="carousel carousel-center p-4 space-x-4">
+                        <div class="carousel carousel-center p-4 space-x-5">
                             <div class="carousel-item">
                             <div className="flex flex-col w-full lg:flex-row h1_parent">
-                            <div className="max-w-lg">
+                            <div className="max-w-lg pl-12">
                                 <h1 className={styles.hero_title_homepage2}>NCX</h1>
                                 <p className={styles.hero_content_landing2}>NCX is an innovative All-in-1 Cryptocurrency Exchange, Trading, Lending & Staking Platform for WEB 3.0, combining the most advanced CEX & DEX features on one Licensed and Secure Platform available in over 200 Countries with offices in Europe, Asia and HQ in Middle East.</p>
                                 <div className={styles.hero3_button}>
@@ -130,23 +130,50 @@ function HomePage({ coinsData }) {
                             </div>
                         </div>
                             </div> 
-                            <div class="carousel-item">
-                                <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=500B67FB" />
+                            <div class="carousel-item carousel_img">
+                                <img src="/1.png" />
                             </div> 
-                            <div class="carousel-item">
-                                <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=A89D0DE6" />
+                            <div class="carousel-item carousel_img">
+                                <img src="/2.png" />
                             </div> 
-                            <div class="carousel-item">
-                                <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=225E6693" />
+                            <div class="carousel-item carousel_img">
+                                <img src="/3.png" />
                             </div> 
-                            <div class="carousel-item">
-                                <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=9D9539E7" />
+                            <div class="carousel-item carousel_img">
+                                <img src="/4.png" />
                             </div> 
-                            <div class="carousel-item">
-                                <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=BDC01094" />
+                            <div class="carousel-item carousel_img">
+                                <img src="/5.png" />
                             </div> 
-                            <div class="carousel-item">
-                                <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=7F5AE56A" />
+                            <div class="carousel-item carousel_img">
+                                <img src="/6.png" />
+                            </div>
+                            <div class="carousel-item carousel_img">
+                                <img src="/7.png" />
+                            </div>
+                            <div class="carousel-item carousel_img">
+                                <img src="/8.png" />
+                            </div>
+                            <div class="carousel-item carousel_img">
+                                <img src="/9.png" />
+                            </div>
+                            <div class="carousel-item carousel_img">
+                                <img src="/10.png" />
+                            </div>
+                            <div class="carousel-item carousel_img">
+                                <img src="/11.png" />
+                            </div>
+                            <div class="carousel-item carousel_img">
+                                <img src="/12.png" />
+                            </div>
+                            <div class="carousel-item carousel_img">
+                                <img src="/13.png" />
+                            </div>
+                            <div class="carousel-item carousel_img">
+                                <img src="/14.png" />
+                            </div>
+                            <div class="carousel-item carousel_img">
+                                <img src="/15.png" />
                             </div>
                         </div>
                     </div>
@@ -298,6 +325,75 @@ function HomePage({ coinsData }) {
                 </div>
             </div>
             {/* End Hero Section 4 */}
+            {/* Media Center */}
+            <div className="bg-white lg:h-full lg:py-16">
+                <div className="max-w-screen-xl mx-auto">
+                <div class="carousel carousel-center">
+                    <div id="slide1" class="carousel-item relative w-full carousel2_img justify-center">
+                    <div className="grid grid-cols-3 mt-14">
+                        <div>
+                            <div className={styles.steps_h1_1}>
+                                <img src="/media1.png" />
+                            </div>
+                            <div className={styles.steps_p_1}>
+                                <p>Cryptocurrency<br />Trading Pairs</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div className={styles.steps_h1_1}>
+                            <img src="/media2.png" />
+                            </div>
+                            <div className={styles.steps_p_1}>
+                                <p>NCX Team Members<br />through 14 Countries</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div className={styles.steps_h1_1}>
+                            <img src="/media3.png" />
+                            </div>
+                            <div className={styles.steps_p_1}>
+                                <p>Live Customer Service,<br />Tech Support & OTC Desk</p>
+                            </div>
+                        </div>
+                    </div>
+                        <div>
+                            <div class="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
+                                <a href="#slide4" class="btn btn-circle">❮</a> 
+                                <a href="#slide2" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div id="slide2" class="carousel-item relative w-full carousel2_img">
+                        <img src="/4.png" alt="Pizza" />
+                        <img src="/5.png" alt="Pizza" />
+                        <img src="/6.png" alt="Pizza" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a> 
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div> 
+                    <div id="slide3" class="carousel-item relative w-full carousel2_img">
+                        <img src="/7.png" alt="Pizza" />
+                        <img src="/8.png" alt="Pizza" />
+                        <img src="/9.png" alt="Pizza" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a> 
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div> 
+                    <div id="slide4" class="carousel-item relative w-full carousel2_img">
+                        <img src="/10.png" alt="Pizza" />
+                        <img src="/11.png" alt="Pizza" />
+                        <img src="/12.png" alt="Pizza" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a> 
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div> 
+                    </div>
+                </div>          
+            </div>
+            {/* End Media Center */}
             {/* Hero Section 2 */}
             <div className="bg-white lg:h-full lg:py-16">
                 <div className="max-w-screen-lg mx-auto">
