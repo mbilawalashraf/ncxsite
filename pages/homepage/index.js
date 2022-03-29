@@ -116,8 +116,8 @@ function HomePage({ coinsData }) {
             <div className="bg-white lg:h-full lg:py-16">
                 <div>
                     <div className="container flex py-32 mx-auto">
-                        <div class="carousel carousel-center p-4 space-x-5">
-                            <div class="carousel-item">
+                        <div className="carousel carousel-center p-4 space-x-5">
+                            <div className="carousel-item">
                             <div className="flex flex-col w-full lg:flex-row h1_parent">
                             <div className="max-w-lg pl-12">
                                 <h1 className={styles.hero_title_homepage2}>NCX</h1>
@@ -130,49 +130,49 @@ function HomePage({ coinsData }) {
                             </div>
                         </div>
                             </div> 
-                            <div class="carousel-item carousel_img">
+                            <div className="carousel-item carousel_img">
                                 <img src="/1.png" />
                             </div> 
-                            <div class="carousel-item carousel_img">
+                            <div className="carousel-item carousel_img">
                                 <img src="/2.png" />
                             </div> 
-                            <div class="carousel-item carousel_img">
+                            <div className="carousel-item carousel_img">
                                 <img src="/3.png" />
                             </div> 
-                            <div class="carousel-item carousel_img">
+                            <div className="carousel-item carousel_img">
                                 <img src="/4.png" />
                             </div> 
-                            <div class="carousel-item carousel_img">
+                            <div className="carousel-item carousel_img">
                                 <img src="/5.png" />
                             </div> 
-                            <div class="carousel-item carousel_img">
+                            <div className="carousel-item carousel_img">
                                 <img src="/6.png" />
                             </div>
-                            <div class="carousel-item carousel_img">
+                            <div className="carousel-item carousel_img">
                                 <img src="/7.png" />
                             </div>
-                            <div class="carousel-item carousel_img">
+                            <div className="carousel-item carousel_img">
                                 <img src="/8.png" />
                             </div>
-                            <div class="carousel-item carousel_img">
+                            <div className="carousel-item carousel_img">
                                 <img src="/9.png" />
                             </div>
-                            <div class="carousel-item carousel_img">
+                            <div className="carousel-item carousel_img">
                                 <img src="/10.png" />
                             </div>
-                            <div class="carousel-item carousel_img">
+                            <div className="carousel-item carousel_img">
                                 <img src="/11.png" />
                             </div>
-                            <div class="carousel-item carousel_img">
+                            <div className="carousel-item carousel_img">
                                 <img src="/12.png" />
                             </div>
-                            <div class="carousel-item carousel_img">
+                            <div className="carousel-item carousel_img">
                                 <img src="/13.png" />
                             </div>
-                            <div class="carousel-item carousel_img">
+                            <div className="carousel-item carousel_img">
                                 <img src="/14.png" />
                             </div>
-                            <div class="carousel-item carousel_img">
+                            <div className="carousel-item carousel_img">
                                 <img src="/15.png" />
                             </div>
                         </div>
@@ -328,8 +328,8 @@ function HomePage({ coinsData }) {
             {/* Media Center */}
             <div className="bg-white lg:h-full lg:py-16">
                 <div className="max-w-screen-xl mx-auto">
-                <div class="carousel carousel-center">
-                    <div id="slide1" class="carousel-item relative w-full carousel2_img justify-center">
+                <div className="carousel carousel-center">
+                    <div id="slide1" className="carousel-item relative w-full carousel2_img justify-center">
                     <div className="grid grid-cols-3 mt-14">
                         <div>
                             <div className={styles.steps_h1_1}>
@@ -357,37 +357,37 @@ function HomePage({ coinsData }) {
                         </div>
                     </div>
                         <div>
-                            <div class="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
-                                <a href="#slide4" class="btn btn-circle">❮</a> 
-                                <a href="#slide2" class="btn btn-circle">❯</a>
+                            <div className="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
+                                <a href="#slide4" className="btn btn-circle">❮</a> 
+                                <a href="#slide2" className="btn btn-circle">❯</a>
                             </div>
                         </div>
                     </div> 
-                    <div id="slide2" class="carousel-item relative w-full carousel2_img">
+                    <div id="slide2" className="carousel-item relative w-full carousel2_img">
                         <img src="/4.png" alt="Pizza" />
                         <img src="/5.png" alt="Pizza" />
                         <img src="/6.png" alt="Pizza" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
-                            <a href="#slide1" class="btn btn-circle">❮</a> 
-                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        <div className="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
+                            <a href="#slide1" className="btn btn-circle">❮</a> 
+                            <a href="#slide3" className="btn btn-circle">❯</a>
                         </div>
                     </div> 
-                    <div id="slide3" class="carousel-item relative w-full carousel2_img">
+                    <div id="slide3" className="carousel-item relative w-full carousel2_img">
                         <img src="/7.png" alt="Pizza" />
                         <img src="/8.png" alt="Pizza" />
                         <img src="/9.png" alt="Pizza" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
-                        <a href="#slide2" class="btn btn-circle">❮</a> 
-                        <a href="#slide4" class="btn btn-circle">❯</a>
+                        <div className="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
+                        <a href="#slide2" className="btn btn-circle">❮</a> 
+                        <a href="#slide4" className="btn btn-circle">❯</a>
                         </div>
                     </div> 
-                    <div id="slide4" class="carousel-item relative w-full carousel2_img">
+                    <div id="slide4" className="carousel-item relative w-full carousel2_img">
                         <img src="/10.png" alt="Pizza" />
                         <img src="/11.png" alt="Pizza" />
                         <img src="/12.png" alt="Pizza" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
-                        <a href="#slide3" class="btn btn-circle">❮</a> 
-                        <a href="#slide1" class="btn btn-circle">❯</a>
+                        <div className="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
+                        <a href="#slide3" className="btn btn-circle">❮</a> 
+                        <a href="#slide1" className="btn btn-circle">❯</a>
                         </div>
                     </div> 
                     </div>
