@@ -343,7 +343,7 @@ function HomePage({ coinsData }) {
                             <div className={styles.carousel_parent_2}>
                                 <img src="/media3.png" />
                                 <p className={styles.carousel_date}>March 23</p>
-                                <h4>TNFTs Coming to Instagram in 'Several Months' as Metaverse is 'Next Chapter of the internet'<br />- Zuckerberg</h4>
+                                <h4>TNFTs Coming to Instagram in Several Months as Metaverse is Next Chapter of the internet<br />- Zuckerberg</h4>
                                 <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
@@ -618,7 +618,7 @@ function HomePage({ coinsData }) {
                             <div className={styles.carousel_parent_2}>
                                 <img src="/blog1.png" />
                                 <p className={styles.carousel_date}>March 23</p>
-                                <h4>TNFTs Coming to Instagram in 'Several Months' as Metaverse is 'Next Chapter of the internet'<br />- Zuckerberg</h4>
+                                <h4>TNFTs Coming to Instagram in Several Months as Metaverse is Next Chapter of the internet<br />- Zuckerberg</h4>
                                 <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
