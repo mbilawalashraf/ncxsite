@@ -634,9 +634,9 @@
 }
 
 .carousel_date{
-    bottom: 10px;
+    top: 8px;
     position: relative;
-    left: 22px;
+    left: 0px;
     font-family: 'poppinsMedium';
     height: 18px;
     font-weight: 500;
@@ -648,9 +648,8 @@
 
 .carousel_parent_2 h4{
     position: relative;
-    left: 22px;
     width: 90%;
-    top: 10px;
+    top: 30px;
     font-family: 'DMSansBold';
     font-style: normal;
     font-weight: 700;
@@ -661,15 +660,18 @@
 
 .carousel2_readmore{
     font-family: 'poppinsRegular';
-      color: #000;
-      font-size: 18px;
-      position: relative;
-      text-align: left;
-      left: 22px;
-      top: 44px;
+    color: #000;
+    font-size: 18px;
+    position: relative;
+    text-align: left;
+    top: 44px;
 }
 
 .carousel2_readmore img{
     display: inline;
+}
+
+.middle_grid{
+    margin-left: 13px !important;
 }
 /* End Carousel2 */
