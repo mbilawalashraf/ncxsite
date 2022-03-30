@@ -324,27 +324,27 @@ function HomePage({ coinsData }) {
                     <div id="slide1" className="carousel-item relative w-full justify-center">
                     <div className="grid grid-cols-3">
                         <div>
-                            <div className={styles.carousel_parent_2}>
+                            <div className={styles.carousel_parent_1}>
                                 <img src="/media3.png" />
-                                <p className={styles.carousel_date}>March 23</p>
+                                <p className={styles.carousel_date1}>March 23</p>
                                 <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
-                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                                <div><p className={styles.carousel2_readmore1}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                         <div>
-                            <div className={styles.carousel_parent_2}>
+                            <div className={styles.carousel_parent_1}>
                                 <img src="/media2.png" />
-                                <p className={styles.carousel_date}>March 23</p>
+                                <p className={styles.carousel_date1}>March 23</p>
                                 <h4>Ethereum Moves Higher Against BitCoin on a Wave of Positive News</h4>
-                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                                <div><p className={styles.carousel2_readmore1}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                         <div>
-                            <div className={styles.carousel_parent_2}>
+                            <div className={styles.carousel_parent_1}>
                                 <img src="/media3.png" />
-                                <p className={styles.carousel_date}>March 23</p>
+                                <p className={styles.carousel_date1}>March 23</p>
                                 <h4>TNFTs Coming to Instagram in Several Months as Metaverse is Next Chapter of the internet<br />- Zuckerberg</h4>
-                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                                <div><p className={styles.carousel2_readmore1}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                     </div>
@@ -358,27 +358,27 @@ function HomePage({ coinsData }) {
                     <div id="slide2" className="carousel-item relative w-full justify-center">
                     <div className="grid grid-cols-3">
                         <div>
-                            <div className={styles.carousel_parent_2}>
+                            <div className={styles.carousel_parent_1}>
                                 <img src="/media3.png" />
-                                <p className={styles.carousel_date}>March 23</p>
+                                <p className={styles.carousel_date1}>March 23</p>
                                 <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
-                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                                <div><p className={styles.carousel2_readmore1}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                         <div>
-                            <div className={styles.carousel_parent_2}>
+                            <div className={styles.carousel_parent_1}>
                                 <img src="/media2.png" />
-                                <p className={styles.carousel_date}>March 23</p>
+                                <p className={styles.carousel_date1}>March 23</p>
                                 <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
-                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                                <div><p className={styles.carousel2_readmore1}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                         <div>
-                            <div className={styles.carousel_parent_2}>
+                            <div className={styles.carousel_parent_1}>
                                 <img src="/media3.png" />
-                                <p className={styles.carousel_date}>March 23</p>
+                                <p className={styles.carousel_date1}>March 23</p>
                                 <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
-                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                                <div><p className={styles.carousel2_readmore1}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                     </div>
@@ -390,27 +390,27 @@ function HomePage({ coinsData }) {
                     <div id="slide3" className="carousel-item relative w-full justify-center">
                     <div className="grid grid-cols-3">
                         <div>
-                            <div className={styles.carousel_parent_2}>
+                            <div className={styles.carousel_parent_1}>
                                 <img src="/media3.png" />
-                                <p className={styles.carousel_date}>March 23</p>
+                                <p className={styles.carousel_date1}>March 23</p>
                                 <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
-                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                                <div><p className={styles.carousel2_readmore1}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                         <div>
-                            <div className={styles.carousel_parent_2}>
+                            <div className={styles.carousel_parent_1}>
                                 <img src="/media2.png" />
-                                <p className={styles.carousel_date}>March 23</p>
+                                <p className={styles.carousel_date1}>March 23</p>
                                 <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
-                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                                <div><p className={styles.carousel2_readmore1}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                         <div>
-                            <div className={styles.carousel_parent_2}>
+                            <div className={styles.carousel_parent_1}>
                                 <img src="/media3.png" />
-                                <p className={styles.carousel_date}>March 23</p>
+                                <p className={styles.carousel_date1}>March 23</p>
                                 <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
-                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                                <div><p className={styles.carousel2_readmore1}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                     </div>
@@ -422,27 +422,27 @@ function HomePage({ coinsData }) {
                     <div id="slide4" className="carousel-item relative w-full justify-center">
                     <div className="grid grid-cols-3">
                         <div>
-                            <div className={styles.carousel_parent_2}>
+                            <div className={styles.carousel_parent_1}>
                                 <img src="/media3.png" />
-                                <p className={styles.carousel_date}>March 23</p>
+                                <p className={styles.carousel_date1}>March 23</p>
                                 <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
-                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                                <div><p className={styles.carousel2_readmore1}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                         <div>
-                            <div className={styles.carousel_parent_2}>
+                            <div className={styles.carousel_parent_1}>
                                 <img src="/media2.png" />
-                                <p className={styles.carousel_date}>March 23</p>
+                                <p className={styles.carousel_date1}>March 23</p>
                                 <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
-                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                                <div><p className={styles.carousel2_readmore1}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                         <div>
-                            <div className={styles.carousel_parent_2}>
+                            <div className={styles.carousel_parent_1}>
                                 <img src="/media3.png" />
-                                <p className={styles.carousel_date}>March 23</p>
+                                <p className={styles.carousel_date1}>March 23</p>
                                 <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
-                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                                <div><p className={styles.carousel2_readmore1}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                     </div>
