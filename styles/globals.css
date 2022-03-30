@@ -160,6 +160,10 @@ a {
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
+  width: 673px;
+  align-items: flex-start !important;
+  padding: 0rem !important;
+  justify-content: left !important;
 }
 
 .mock_parent{
