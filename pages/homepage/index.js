@@ -294,21 +294,6 @@ function HomePage({ coinsData }) {
                                 <h1 className={styles.hero_title_homepage4}>NCX Card</h1>
                                 <h3 className={styles.hero_content_subtitle}>Your Digital Assets Are Just a Swipe Away</h3>
                                 <p className={styles.hero_content_landing4}>Accepted by 40+ million merchants worldwide<br />Instant 2% cashback on all purchases<br />Flexible repayment options<br />Free virtual cards<br />Payments in local currencies<br />No monthly/annual fees, no FX fees</p>
-                                {/* <div className="grid grid-cols-4 store-logo">
-                                    <div className="">
-                                        <a href="#"
-                                            className="lg:inline"><img className="appstore"
-                                            src="/appstore.svg" alt="Mock Up Data" />
-                                            
-                                        </a>
-                                    </div>
-                                    <div className="">
-                                        <a href="#"
-                                            className="lg:inline"><img className="googlestore"
-                                            src="/googleplay.svg" alt="Mock Up Data" />
-                                        </a>
-                                    </div>
-                                </div> */}
                                 <div className={styles.hero4_button}>
                                     <a href="#"
                                         className="">Get Your NCX Card
@@ -326,24 +311,40 @@ function HomePage({ coinsData }) {
             </div>
             {/* End Hero Section 4 */}
             {/* Media Center */}
-            <div className="bg-white lg:h-full lg:py-16">
+            <div className="lg:h-full lg:py-16 media_parent">
                 <div className="max-w-screen-xl mx-auto">
-                <div className="carousel carousel-center">
-                    <div id="slide1" className="carousel-item relative w-full carousel2_img justify-center">
+                    <div className="w-full lg:flex-row">
+                        <div className="">
+                            <h1 className={styles.carousel2_title}>Media Center</h1>
+                            <h3 className={styles.carousel2_subtitle}>Read the Latest news and important updates from NCX.</h3>
+                            <div><p className={styles.carousel2_subtitle_p}>Read Blog <img src="/arrow.svg" /></p></div>
+                        </div>
+                    </div>
+                <div className="carousel carousel-center carousel_height">
+                    <div id="slide1" className="carousel-item relative w-full justify-center">
                     <div className="grid grid-cols-3">
                         <div>
                             <div className={styles.carousel_parent_2}>
                                 <img src="/media3.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                         <div>
                             <div className={styles.carousel_parent_2}>
-                            <img src="/media2.png" />
+                                <img src="/media2.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>Ethereum Moves Higher Against BitCoin on a Wave of Positive News</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                         <div>
                             <div className={styles.carousel_parent_2}>
-                            <img src="/media3.png" />
+                                <img src="/media3.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>TNFTs Coming to Instagram in 'Several Months' as Metaverse is 'Next Chapter of the internet'<br />- Zuckerberg</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                     </div>
@@ -354,21 +355,30 @@ function HomePage({ coinsData }) {
                             </div>
                         </div>
                     </div> 
-                    <div id="slide2" className="carousel-item relative w-full carousel2_img justify-center">
+                    <div id="slide2" className="carousel-item relative w-full justify-center">
                     <div className="grid grid-cols-3">
                         <div>
                             <div className={styles.carousel_parent_2}>
                                 <img src="/media3.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                         <div>
                             <div className={styles.carousel_parent_2}>
-                            <img src="/media2.png" />
+                                <img src="/media2.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                         <div>
                             <div className={styles.carousel_parent_2}>
-                            <img src="/media3.png" />
+                                <img src="/media3.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                     </div>
@@ -377,21 +387,30 @@ function HomePage({ coinsData }) {
                             <a href="#slide3" className="btn btn-circle">❯</a>
                         </div>
                     </div> 
-                    <div id="slide3" className="carousel-item relative w-full carousel2_img justify-center">
+                    <div id="slide3" className="carousel-item relative w-full justify-center">
                     <div className="grid grid-cols-3">
                         <div>
                             <div className={styles.carousel_parent_2}>
                                 <img src="/media3.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                         <div>
                             <div className={styles.carousel_parent_2}>
-                            <img src="/media2.png" />
+                                <img src="/media2.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                         <div>
                             <div className={styles.carousel_parent_2}>
-                            <img src="/media3.png" />
+                                <img src="/media3.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                     </div>
@@ -400,21 +419,30 @@ function HomePage({ coinsData }) {
                         <a href="#slide4" className="btn btn-circle">❯</a>
                         </div>
                     </div> 
-                    <div id="slide4" className="carousel-item relative w-full carousel2_img justify-center">
+                    <div id="slide4" className="carousel-item relative w-full justify-center">
                     <div className="grid grid-cols-3">
                         <div>
                             <div className={styles.carousel_parent_2}>
                                 <img src="/media3.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                         <div>
                             <div className={styles.carousel_parent_2}>
-                            <img src="/media2.png" />
+                                <img src="/media2.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                         <div>
                             <div className={styles.carousel_parent_2}>
-                            <img src="/media3.png" />
+                                <img src="/media3.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
                     </div>
@@ -557,6 +585,151 @@ function HomePage({ coinsData }) {
                 </div>
         </div>
         {/* End Hero Section */}
+                    {/* Media Center */}
+                    <div className="lg:h-full lg:py-16 media_parent">
+                <div className="max-w-screen-xl mx-auto">
+                    <div className="w-full lg:flex-row">
+                        <div className="">
+                            <h1 className={styles.carousel2_title}>Blog & News</h1>
+                            <h3 className={styles.carousel2_subtitle}>Read the Latest news and important updates from NCX.</h3>
+                            <div><p className={styles.carousel2_subtitle_p}>Read Blog <img src="/arrow.svg" /></p></div>
+                        </div>
+                    </div>
+                <div className="carousel carousel-center carousel_height">
+                    <div id="slide1" className="carousel-item relative w-full justify-center">
+                    <div className="grid grid-cols-3">
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                                <img src="/media3.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                                <img src="/media2.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>Ethereum Moves Higher Against BitCoin on a Wave of Positive News</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                                <img src="/media3.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>TNFTs Coming to Instagram in 'Several Months' as Metaverse is 'Next Chapter of the internet'<br />- Zuckerberg</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                            </div>
+                        </div>
+                    </div>
+                        <div>
+                            <div className="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
+                                <a href="#slide4" className="btn btn-circle">❮</a> 
+                                <a href="#slide2" className="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div id="slide2" className="carousel-item relative w-full justify-center">
+                    <div className="grid grid-cols-3">
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                                <img src="/media3.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                                <img src="/media2.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                                <img src="/media3.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                            </div>
+                        </div>
+                    </div>
+                        <div className="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
+                            <a href="#slide1" className="btn btn-circle">❮</a> 
+                            <a href="#slide3" className="btn btn-circle">❯</a>
+                        </div>
+                    </div> 
+                    <div id="slide3" className="carousel-item relative w-full justify-center">
+                    <div className="grid grid-cols-3">
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                                <img src="/media3.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                                <img src="/media2.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                                <img src="/media3.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                            </div>
+                        </div>
+                    </div>
+                        <div className="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
+                        <a href="#slide2" className="btn btn-circle">❮</a> 
+                        <a href="#slide4" className="btn btn-circle">❯</a>
+                        </div>
+                    </div> 
+                    <div id="slide4" className="carousel-item relative w-full justify-center">
+                    <div className="grid grid-cols-3">
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                                <img src="/media3.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                                <img src="/media2.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className={styles.carousel_parent_2}>
+                                <img src="/media3.png" />
+                                <p className={styles.carousel_date}>March 23</p>
+                                <h4>ApeCoin Soars After Launch, BAYC NFT Prices Pump and Dump</h4>
+                                <div><p className={styles.carousel2_readmore}>Read Blog <img src="/arrow.svg" /></p></div>
+                            </div>
+                        </div>
+                    </div>
+                        <div className="absolute flex justify-between transform -translate-y-1/2 ml-0 left-5 right-5 top-1/2">
+                        <a href="#slide3" className="btn btn-circle">❮</a> 
+                        <a href="#slide1" className="btn btn-circle">❯</a>
+                        </div>
+                    </div> 
+                    </div>
+                </div>          
+            </div>
+            {/* End Media Center */}
         {/* Hero Section 3 */}
         <div className="bg-white lg:h-full lg:py-16">
                 <div className="max-w-screen-xl mx-auto">

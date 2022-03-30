@@ -575,20 +575,101 @@
 
 /* Carousel2 */
 .carousel_parent_2{
-    position: static;
     width: 360px;
-    height: 45px;
-    left: 20px;
-    top: 150px;
-    font-family: 'DMSansBold';
+}
+
+.carousel2_title{
+    position: static;
+    height: 62px;   
+    left: 0;
+    top: 0px;
+    font-family: DMSansBold;
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 55px;
+    font-size: 42px;
+    line-height: 62px;
+    letter-spacing: 0.02em;
     text-align: center;
-    color: #3772FF;
+    color: #000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.carousel2_subtitle{
+    position: relative;
+    height: 90px;
+    top: 10px;
+    font-family: 'poppinsRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 45px;
+    letter-spacing: 0.02em;
+    color: #000000;
     flex: none;
     order: 1;
     flex-grow: 0;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+.carousel2_subtitle_p{
+    position: relative;
+    left: 0px;
+    height: 100px;
+    top: 30px;
+    font-family: 'poppinsRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.carousel2_subtitle_p img{
+    display: inline;
+}
+
+.carousel_date{
+    bottom: 10px;
+    position: relative;
+    left: 22px;
+    font-family: 'poppinsMedium';
+    height: 18px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #777E90;
+}
+
+.carousel_parent_2 h4{
+    position: relative;
+    left: 22px;
+    width: 90%;
+    top: 10px;
+    font-family: 'DMSansBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.carousel2_readmore{
+    font-family: 'poppinsRegular';
+      color: #000;
+      font-size: 18px;
+      position: relative;
+      text-align: left;
+      left: 22px;
+      top: 44px;
+}
+
+.carousel2_readmore img{
+    display: inline;
 }
 /* End Carousel2 */

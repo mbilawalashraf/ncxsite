@@ -851,3 +851,15 @@ footer p{
   display: block
 }
 /* End Carousel */
+
+/* Carousel2 */
+.media_parent{
+  background-color: #FCFCFD;
+}
+
+.carousel_height{
+  height: 450px;
+}
+
+
+/* End Carousel2 */
