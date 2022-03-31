@@ -753,8 +753,8 @@ footer p{
 /* Bilawal CSS Styling starts from here */
 .staking_vid2{
   width: 100%;
-  max-width: 1519px !important;
-  min-width: 1519px;
+  max-width: 1920px !important;
+  min-width: 1920px;
   height: 650px;
   min-height: 29px !important;
   position: absolute;
@@ -769,8 +769,8 @@ footer p{
 }
 .mock_parent_staking2{
   width: 100%;
-  max-width: 1519px !important;
-  min-width: 1519px;
+  max-width: 1920px !important;
+  min-width: 1920px;
   height: 650px;
   min-height: 29px !important;
   object-fit: cover;
