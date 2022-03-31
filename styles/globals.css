@@ -62,6 +62,11 @@
   src: url('../public/IBMPlexSans-Medium.ttf')
 }
 
+@font-face {
+  font-family: IBMPlexSansSemiBold;
+  src: url('../public/IBMPlexSans-SemiBold.ttf')
+}
+
 html,
 body {
   background-color: white;
@@ -551,7 +556,7 @@ footer p{
 }
 
 .bg_coinslist{
-  background-color: #F8F8F9;
+  background-color: rgb(241, 241, 241);
   padding: 100px 0px;
 }
 /* End Landing Page */
@@ -868,7 +873,7 @@ footer p{
 
 /* Carousel2 */
 .media_parent{
-  background-color: #FCFCFD;
+  background-color: rgb(241, 241, 241);
 }
 
 .carousel_height{

@@ -588,7 +588,7 @@
 }
 
 .carousel_parent_2{
-    width: 360px;
+    width: 307px;
 }
 
 .carousel2_title{
@@ -624,7 +624,7 @@
     order: 1;
     flex-grow: 0;
     text-align: center;
-    width: 40%;
+    width: 50%;
     margin: auto;
 }
 
@@ -660,9 +660,7 @@
 }
 
 .carousel_date{
-    top: 8px;
-    position: relative;
-    left: 0px;
+position: relative;
     font-family: 'poppinsMedium';
     height: 18px;
     font-weight: 500;
@@ -670,12 +668,13 @@
     line-height: 17px;
     letter-spacing: 0.02em;
     color: #777E90;
+    top: 12px;
 }
 
 .carousel_parent_1 h4{
     position: relative;
-    width: 90%;
-    top: 30px;
+    width: 86%;
+    top: 10px;
     font-family: 'DMSansBold';
     font-style: normal;
     font-weight: 700;
@@ -684,19 +683,20 @@
     text-align: justify;
     left: 22px;
     min-height: 96px;
+    letter-spacing: 0.02em;
 }
 
 .carousel_parent_2 h4{
     position: relative;
-    width: 90%;
-    top: 30px;
+    top: 35px;
     font-family: 'DMSansBold';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
     text-align: justify;
-    min-height: 95px;
+    min-height: 128px;
+    letter-spacing: 0.02em;
 }
 
 .carousel2_readmore1{
@@ -705,9 +705,10 @@
     font-size: 18px;
     position: relative;
     text-align: left;
-    top: 30px;
+    top: 10px;
     left: 22px;
-    margin-top: 10px;
+    margin-top: 20px;
+    height: 120px;
 }
 
 .carousel2_readmore{
@@ -716,7 +717,9 @@
     font-size: 18px;
     position: relative;
     text-align: left;
-    top: 44px;
+    top: 10px;
+    margin-top: 20px;
+    height: 120px;
 }
 
 .carousel2_readmore1 img{

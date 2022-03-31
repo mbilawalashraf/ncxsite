@@ -94,7 +94,7 @@
     justify-content: flex-start;
     align-items: center;
     height: 73px;
-    border-bottom: 1px solid #B1B5C3;
+    border-bottom: 1px solid #E6E8EC;
     width: 1000px;
     /* padding: 0rem 2rem; */
     color: white;
@@ -293,6 +293,15 @@
     font-size: 12px;
     display: inherit;
     margin-left: 13px;
+    font-family: 'IBMPlexSansSemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+
+
+    color: #777E90;
+
 }
 
 .header__name_landing span{
@@ -306,6 +315,14 @@
     font-size: 12px;
     margin-left: 141px;
     display: inherit;
+    font-family: 'IBMPlexSansSemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+
+
+    color: #777E90;
 }
 
 .header__price_landing span{
@@ -318,6 +335,14 @@
     text-align: right;
     color: #777E90;
     font-size: 12px;
+    font-family: 'IBMPlexSansSemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+
+
+    color: #777E90;
 }
 
 .header__marketcap_landing{
