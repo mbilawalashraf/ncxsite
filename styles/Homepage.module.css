@@ -104,7 +104,7 @@
     font-size: 18px;
     line-height: 29px;
     /* or 164% */
-    
+    color: #000;
     letter-spacing: 0.02em;
     /* margin-bottom: 50px; */
   }
@@ -141,7 +141,7 @@
     font-size: 18px;
     line-height: 29px;
     /* or 164% */
-    
+    color: #000;
     letter-spacing: 0.02em;
     margin-bottom: 30px;
   }
@@ -255,6 +255,11 @@
     margin: 30px 0px;
 }
 
+.steps_h1_1 img{
+    height: 45px;
+    margin: auto;
+}
+
 .steps_p_1{
     position: static;
     width: 300px;
@@ -273,7 +278,7 @@
 
     text-align: center;
 
-    color: #000000;
+    color: #000;
 
 
     /* Inside auto layout */
@@ -323,7 +328,7 @@
     
     letter-spacing: 0.02em;
     
-    color: #000000;
+    color: #000;
     
     
     /* Inside auto layout */
@@ -345,7 +350,7 @@
     font-size: 18px;
     line-height: 29px;
     /* or 164% */
-    
+    color: #000;
     letter-spacing: 0.02em;
     /* margin-bottom: 50px; */
   }
@@ -469,7 +474,7 @@
 
     text-align: center;
 
-    color: #000000;
+    color: #000;
 
 
     /* Inside auto layout */
@@ -485,6 +490,7 @@
 .steps_p p{
     line-height: 26px;
     font-size: 15px;
+    color: #000;
 }
 
 .hero2_button{
@@ -535,6 +541,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
+    color: #000;
   }
   
 /* End Staking */
@@ -554,6 +561,7 @@
     font-size: 41px;
     line-height: 50px;
     margin-bottom: 2px;
+    color: #000;
 }
 
 .hero_p_started_staking{
@@ -564,6 +572,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
+    color: #000;
 }
 /* End Started Staking */
 
@@ -674,6 +683,7 @@
     line-height: 24px;
     text-align: justify;
     left: 22px;
+    min-height: 96px;
 }
 
 .carousel_parent_2 h4{
@@ -686,6 +696,7 @@
     font-size: 18px;
     line-height: 24px;
     text-align: justify;
+    min-height: 95px;
 }
 
 .carousel2_readmore1{
@@ -694,8 +705,9 @@
     font-size: 18px;
     position: relative;
     text-align: left;
-    top: 70px;
+    top: 30px;
     left: 22px;
+    margin-top: 10px;
 }
 
 .carousel2_readmore{

@@ -1,5 +1,4 @@
 import styles from '../../styles/Homepage.module.css'
-
 import Nav from "../../components/Nav"
 
 import SearchBar from '../../components/SearchBar'
@@ -73,12 +72,13 @@ function HomePage({ coinsData }) {
         </div>
         {/* End Hero Section */}
         {/* Steps Section */}
-        <div className="bg-white lg:h-full lg:py-16">
+        <div className="bg-white lg:h-full lg:pt-16">
                 <div className="max-w-screen-xl mx-auto">
                     <div className="grid grid-cols-4 mt-14">
                         <div>
                             <div className={styles.steps_h1_1}>
-                                <h1 id="countdown">145+</h1>
+                                {/* <h1 id="countdown">145+</h1> */}
+                                <img src="/count1.gif" />
                             </div>
                             <div className={styles.steps_p_1}>
                                 <p>NCX Platform is available<br />in over 200 Countries</p>
@@ -86,7 +86,8 @@ function HomePage({ coinsData }) {
                         </div>
                         <div>
                             <div className={styles.steps_h1_1}>
-                                <h1>75+</h1>
+                                {/* <h1>75+</h1> */}
+                                <img src="/count2.gif" />
                             </div>
                             <div className={styles.steps_p_1}>
                                 <p>Cryptocurrency<br />Trading Pairs</p>
@@ -94,7 +95,8 @@ function HomePage({ coinsData }) {
                         </div>
                         <div>
                             <div className={styles.steps_h1_1}>
-                                <h1>41</h1>
+                                {/* <h1>41</h1> */}
+                                <img src="/count3.gif" />
                             </div>
                             <div className={styles.steps_p_1}>
                                 <p>NCX Team Members<br />through 14 Countries</p>
@@ -113,13 +115,13 @@ function HomePage({ coinsData }) {
             </div>
             {/* End Steps Section */}
             {/* First Carousel */}
-            <div className="bg-white lg:h-full lg:py-16">
+            <div className="bg-white lg:h-full lg:pb-16">
                 <div>
                     <div className="container flex py-32 mx-auto">
-                        <div className="carousel carousel-center p-4 space-x-5">
+                        <div className="carousel carousel-center p-4 space-x-9">
                             <div className="carousel-item">
                             <div className="flex flex-col w-full lg:flex-row h1_parent">
-                            <div className="max-w-lg pl-12">
+                            <div className="max-w-lg pl-32">
                                 <h1 className={styles.hero_title_homepage2}>NCX</h1>
                                 <p className={styles.hero_content_landing2}>NCX is an innovative All-in-1 Cryptocurrency Exchange, Trading, Lending & Staking Platform for WEB 3.0, combining the most advanced CEX & DEX features on one Licensed and Secure Platform available in over 200 Countries with offices in Europe, Asia and HQ in Middle East.</p>
                                 <div className={styles.hero3_button}>
@@ -494,9 +496,9 @@ function HomePage({ coinsData }) {
                             <div className={styles.steps_h1}>
                                 <h1>Licensed & Regulated<br />Digital Assets Institution</h1>
                             </div>
-                            <div className={styles.steps_p}>
+                            {/* <div className={styles.steps_p}>
                                 <p>Verify your identity with one of<br />our trusted verification partners.</p>
-                            </div>
+                            </div> */}
                         </div>
                         <div>
                             <div className={styles.steps_background}>
@@ -509,9 +511,9 @@ function HomePage({ coinsData }) {
                             <div className={styles.steps_h1}>
                                 <h1>Secure Socket Layer<br />(SSL) Encryption</h1>
                             </div>
-                            <div className={styles.steps_p}>
+                            {/* <div className={styles.steps_p}>
                             <p>Verify your identity with one of<br />our trusted verification partners.</p>
-                            </div>
+                            </div> */}
                         </div>
                         <div>
                             <div className={styles.steps_background}>
@@ -524,9 +526,9 @@ function HomePage({ coinsData }) {
                             <div className={styles.steps_h1}>
                                 <h1>Biometric-Based<br/>Identity Verification</h1>
                             </div>
-                            <div className={styles.steps_p}>
+                            {/* <div className={styles.steps_p}>
                             <p>Verify your identity with one of<br />our trusted verification partners.</p>
-                            </div>
+                            </div> */}
                         </div>
                         <div>
                             <div className={styles.steps_background}>
@@ -539,9 +541,9 @@ function HomePage({ coinsData }) {
                             <div className={styles.steps_h1}>
                                 <h1>KYC & AML Global<br />Complience Standards</h1>
                             </div>
-                            <div className={styles.steps_p}>
+                            {/* <div className={styles.steps_p}>
                             <p>Verify your identity with one of<br />our trusted verification partners.</p>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     {/* <div className={styles.hero2_button}>
@@ -734,7 +736,7 @@ function HomePage({ coinsData }) {
         <div className="bg-white lg:h-full lg:py-16">
                 <div className="max-w-screen-xl mx-auto">
                 <div className="container flex px-6 mx-auto reverse_flex">
-                <div className="flex flex-col lg:flex-row pt-16">
+                <div className="flex flex-col lg:flex-row pt-16 w-full">
                             <div className="max-w-lg hero1_section_text">
                                 <h1 className={styles.hero_title_started_staking}>Get Started in Minutes<br />in 2 Simple Steps</h1>
                                 <p className={styles.hero_p_started_staking}>Sign up to create NCX account<br />Verify your identity & Start Buying,<br />Selling, Trading and Staking<br />Cryptocurrencies in Minutes</p>
@@ -763,6 +765,9 @@ function HomePage({ coinsData }) {
                 </div>
             </div>
             {/* End Hero Section 3 */}
+            {/* Accordion Section */}
+            
+            {/* End Accordion Section */}
         <Footer />
         </>
     )
