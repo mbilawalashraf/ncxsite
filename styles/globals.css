@@ -556,7 +556,7 @@ footer p{
 }
 
 .bg_coinslist{
-  background-color: rgb(241, 241, 241);
+  background-color: #FCFCFD;
   padding: 100px 0px;
 }
 /* End Landing Page */
@@ -873,7 +873,7 @@ footer p{
 
 /* Carousel2 */
 .media_parent{
-  background-color: rgb(241, 241, 241);
+  background-color: #FCFCFD;
 }
 
 .carousel_height{
