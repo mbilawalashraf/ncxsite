@@ -495,7 +495,7 @@ function HomePage({ coinsData }) {
                             <div><p className={styles.carousel2_subtitle_p}>Read Blog <img src="/arrow.svg" /></p></div>
                         </div>
                     </div>
-                    <div className="grid grid-cols-3 space-x-7">
+                    <div className="grid grid-cols-3">
                         <div className="m-auto">
                             <div className={styles.carousel_parent_2}>
                                 <img src="/blog3.png" />
