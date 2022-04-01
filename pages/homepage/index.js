@@ -25,7 +25,7 @@ function HomePage({ coinsData }) {
         <>
         <Nav />
         {/* Hero Section */}
-        <header class="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
+        <header className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
                 {/* <img className="object-cover w-full h-full max-w-2xl rounded-md mockup-pic"
                     src="/mockup.png" alt="Mock Up Data" /> */}
                 <video 
