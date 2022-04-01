@@ -584,11 +584,11 @@
 
 /* Carousel2 */
 .carousel_parent_1{
-    width: 360px;
+    width: 400px;
 }
 
 .carousel_parent_2{
-    width: 307px;
+    width: 350px;
 }
 
 .carousel2_title{
@@ -624,7 +624,7 @@
     order: 1;
     flex-grow: 0;
     text-align: center;
-    width: 50%;
+    width: 35%;
     margin: auto;
 }
 
@@ -675,9 +675,9 @@ position: relative;
     position: relative;
     width: 86%;
     top: 10px;
-    font-family: 'DMSansBold';
+    font-family: 'DMSansMedium';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
     line-height: 24px;
     text-align: justify;
@@ -689,9 +689,9 @@ position: relative;
 .carousel_parent_2 h4{
     position: relative;
     top: 35px;
-    font-family: 'DMSansBold';
+    font-family: 'DMSansMedium';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
     line-height: 24px;
     text-align: justify;
@@ -700,19 +700,22 @@ position: relative;
 }
 
 .carousel2_readmore1{
-    font-family: 'poppinsRegular';
+    font-weight: 500;
+    font-family: 'poppinsMedium';
     color: #000;
     font-size: 18px;
+    line-height: 30px;
     position: relative;
     text-align: left;
     top: 10px;
     left: 22px;
     margin-top: 20px;
     height: 120px;
+    letter-spacing: 0.02em;
 }
 
 .carousel2_readmore{
-    font-family: 'poppinsRegular';
+    font-family: 'poppinsMedium';
     color: #000;
     font-size: 18px;
     position: relative;
@@ -720,6 +723,9 @@ position: relative;
     top: 10px;
     margin-top: 20px;
     height: 120px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.02em;
 }
 
 .carousel2_readmore1 img{

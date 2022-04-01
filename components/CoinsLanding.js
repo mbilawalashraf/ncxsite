@@ -13,7 +13,7 @@ const CoinsLanding = ({ name, id, price, symbol, marketcap, volume, image, price
                         <img src={image} alt={name} className={styles.coin_logo} />
                         <p className={styles.coin__symbol_landing}>{name} <span className={styles.symbol_span}>{symbol}</span> </p>
                     </div>
-                    <p className={styles.coin__price_landing}>${price.toFixed(2)}</p>
+                    <p className={styles.coin__price_landing}>${price.toLocaleString('en')}</p>
                     {priceChange < 0 ? (
                         <p className={styles.coin_red_landing}>{priceChange.toFixed(2)}%</p>
                     ) : (

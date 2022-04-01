@@ -18,6 +18,7 @@
     src: url('../public/Poppins-SemiBold.ttf')
   }
 
+
 .btn_buy {
     border: 2px solid black;
     background-color: #0198ff;
@@ -94,7 +95,7 @@
     justify-content: flex-start;
     align-items: center;
     height: 73px;
-    border-bottom: 1px solid #E6E8EC;
+    border-bottom: 1px solid #F5F5F5;
     width: 1000px;
     /* padding: 0rem 2rem; */
     color: white;
@@ -154,7 +155,7 @@
     justify-content: flex-start;
     align-items: center;
     height: 73px;
-    border-bottom: 1px solid #E6E8EC;
+    border-bottom: 1px solid #F5F5F5;
     width: 1000px;
     /* padding: 0rem 2rem; */
     color: white;
@@ -277,7 +278,7 @@
 .symbol_span {
     color: #777E90;
     text-transform: uppercase;
-    font-family: 'IBMPlexSansMedium';
+    font-family: 'IBMPlexSansRegular';
 }
 
 /* Header Landing */
@@ -287,62 +288,72 @@
     justify-content: center;
 
 }
-.header__name_landing{
-    text-align: left;
-    color: #777E90;
-    font-size: 12px;
+.header__number_landing{
     display: inherit;
-    margin-left: 13px;
     font-family: 'IBMPlexSansSemiBold';
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 20px;
-
-
     color: #777E90;
+    width: 10%;
+    left: 0px;
+    position: relative;
+}
 
+.header__number_landing span{
+    margin-top: 1.2px;
+    margin-left: 11px;
+}
+.header__name_landing{
+    text-align: left;
+    display: inherit;
+    font-family: 'IBMPlexSansSemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777E90;
+    width: 40%;
+    position: relative;
+    left: 95px;
 }
 
 .header__name_landing span{
-    margin-top: 0.2px;
+    margin-top: 1.2px;
     margin-left: 5px;
 }
 
 .header__price_landing{
     text-align: right;
-    color: #777E90;
-    font-size: 12px;
-    margin-left: 141px;
     display: inherit;
     font-family: 'IBMPlexSansSemiBold';
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 20px;
-
-
     color: #777E90;
+    width: 30%;
+    position: relative;
+    left: 100px;
 }
 
 .header__price_landing span{
-    margin-top: 0.2px;
+    margin-top: 1.2px;
     margin-left: 5px;
 }
 
 .header__24h_landing{
-    width: 70px;
     text-align: right;
-    color: #777E90;
-    font-size: 12px;
     font-family: 'IBMPlexSansSemiBold';
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 20px;
-
-
     color: #777E90;
+    width: 20%;
+    position: relative;
+    right: 15px;
 }
 
 .header__marketcap_landing{
@@ -378,22 +389,22 @@
     position: relative;
     text-align: left;
     transform: translateY(20%);
-    margin-left: 10px;
     color: #23262F;
     display: inherit;
+    width: 10%;
 }
 
 .coin__rank span{
-    margin-top: 0.2px;
-    margin-right: 5px;
+    margin-top: 2.2px;
+    margin-right: 20px;
 }
 
 .icons_sym_landing {
-    position: relative;
-    width: 241px;
+    width: 40%;
     text-align: left;
     transform: translateY(9%);
-    margin-left: 48px;
+    position: relative;
+    left: 60px;
 }
 
 .coin__symbol_landing{
@@ -408,13 +419,13 @@
 }
 
 .coin__price_landing{
-    width: 96px;
+    width: 20%;
     color: #23262F;
-    /* font-weight: bold; */
     transform: translateY(25%);
+    font-family: 'IBMPlexSansMedium';
     text-align: right;
-    margin-right: 30px;
-    font-family: 'IBMPlexSansMedium'
+    position: relative;
+    right: 29px;
 }
 
 .coin__high_24_landing{

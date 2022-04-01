@@ -84,7 +84,7 @@ function HomePage({ coinsData }) {
             {/* First Carousel */}
             <div className="bg-white lg:h-full lg:pb-16">
                 <div>
-                    <div className="container flex py-32 mx-auto">
+                    <div className="container flex pb-32 mx-auto">
                         <div className="carousel carousel-center p-4 space-x-9">
                             <div className="carousel-item">
                             <div className="flex flex-col w-full lg:flex-row h1_parent">
@@ -261,7 +261,7 @@ function HomePage({ coinsData }) {
             {/* End Hero Section 4 */}
             {/* Media Center */}
             <div className="lg:h-full lg:py-16 media_parent">
-                <div className="max-w-screen-lg mx-auto">
+                <div className="max-w-screen-xl mx-auto">
                     <div className="w-full lg:flex-row mt-10">
                         <div className="">
                             <h1 className={styles.carousel2_title}>Media Center</h1>
@@ -269,8 +269,8 @@ function HomePage({ coinsData }) {
                             <div><p className={styles.carousel2_subtitle_p}>Read Blog <img src="/arrow.svg" /></p></div>
                         </div>
                     </div>
-                    <div className="grid grid-cols-3">
-                        <div>
+                    <div className="grid grid-cols-3 mx-12">
+                        <div className="m-auto">
                             <div className={styles.carousel_parent_1}>
                                 <img src="/media3.png" />
                                 <p className={styles.carousel_date1}>Mar 23</p>
@@ -278,7 +278,7 @@ function HomePage({ coinsData }) {
                                 <div><p className={styles.carousel2_readmore1}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
-                        <div>
+                        <div className="m-auto">
                             <div className={styles.carousel_parent_1}>
                                 <img src="/media2.png" />
                                 <p className={styles.carousel_date1}>Mar 23</p>
@@ -286,7 +286,7 @@ function HomePage({ coinsData }) {
                                 <div><p className={styles.carousel2_readmore1}>Read Blog <img src="/arrow.svg" /></p></div>
                             </div>
                         </div>
-                        <div>
+                        <div className="m-auto">
                             <div className={styles.carousel_parent_1}>
                                 <img src="/media3.png" />
                                 <p className={styles.carousel_date1}>Mar 23</p>
@@ -434,7 +434,7 @@ function HomePage({ coinsData }) {
         {/* End Hero Section */}
                     {/* Blog & News */}
                     <div className="lg:h-full lg:py-16 media_parent">
-                <div className="max-w-screen-lg mx-auto">
+                <div className="max-w-screen-xl mx-auto">
                     <div className="w-full lg:flex-row mt-10">
                         <div className="">
                             <h1 className={styles.carousel2_title}>Blog & News</h1>
@@ -442,7 +442,7 @@ function HomePage({ coinsData }) {
                             <div><p className={styles.carousel2_subtitle_p}>Read Blog <img src="/arrow.svg" /></p></div>
                         </div>
                     </div>
-                    <div className="grid grid-cols-3">
+                    <div className="grid grid-cols-3 mx-12">
                         <div className="m-auto">
                             <div className={styles.carousel_parent_2}>
                                 <img src="/blog3.png" />

@@ -67,6 +67,11 @@
   src: url('../public/IBMPlexSans-SemiBold.ttf')
 }
 
+@font-face {
+  font-family: IBMPlexSansRegular;
+  src: url('../public/IBMPlexSans-Regular.ttf')
+}
+
 html,
 body {
   background-color: white;
