@@ -1,0 +1,117 @@
+
+.tabs {
+    margin: 0 auto;
+    /* width: 80%; width of the whole tabs section */
+    border: 1px solid #fff; /* border of the whole tabs section */
+    color: #000; /* color of the text in each tab card */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tabs label {
+    order: 1; /* Put labels first */
+    display: block;
+    padding: 0rem 1rem;
+    margin-right: 0.2rem;
+    cursor: pointer;
+    background: #fff;
+    font-weight: bold;
+    transition: background ease 0.3s;
+  }
+  
+  .tabs label:hover {
+    background: #fff;
+  }
+  
+  .tabs .tab {
+    order: 99; /* Put tabs last*/
+    flex-grow: 1;
+    width: 100%;
+    min-height: 350px; /* minimum height of the tab content */
+    display: block; /* HIDES unselected tab content with "none" */
+    position: absolute;
+    right: -9999px; /* move everything to the right to hide the content (not selected) */
+    padding: 1rem 0rem;
+    background: transparent; /* color of tab content */
+    color: #fff;
+    
+  }
+  
+  .tabs input[type="radio"] {
+    display: none; 
+  }
+  
+  .tabs input[type="radio"]:checked + label {
+    background: #353945; /* color of selected tab */
+    color: white;
+  }
+  
+  .tabs input[type="radio"]:checked + label + .tab {
+    display: block; /* SHOWS selected tab */
+    position: relative;
+    right: 0px;
+    color: black;
+    transition: .3s ease;
+  }
+
+  .tabs label {
+    font-family: 'PoppinsMedium';
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 44px;
+    letter-spacing: 0.02em;
+  }
+
+  .news_title {
+    position: static;
+    width: 100%;
+    left: 0;
+    top: 100px;
+    font-family: DMSansBold;
+    font-style: normal;
+    font-weight: 700;
+    color: #000;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    height: 70px;
+  }
+
+  .news_tag{
+    color: #3772FF;
+    font-family: 'DMSansBold';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    height: 28px;
+  }
+
+  .news_content{
+    font-family: 'poppinsRegular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.02em;
+    color: #000;
+    height: 103px;
+  }
+
+  .news_date{
+    font-family: 'DMSansBold';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    color: #9699A2;
+  }
+
+  .news_readmore{
+    font-family: 'DMSansBold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    color: #000;
+    text-align: right;
+  }

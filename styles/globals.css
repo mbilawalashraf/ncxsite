@@ -79,6 +79,7 @@ body {
   margin: 0;
   /* font-family: "avenir"; */
   font-size: 14px;
+  overflow-x: hidden;
 }
 
 a {
@@ -879,3 +880,16 @@ footer p{
 
 
 /* End Carousel2 */
+
+
+/* News and Blog Section */
+/* Tab Section */
+.news-pic {
+    height: auto;
+    position: absolute;
+    top: 0;
+}
+
+
+/* End Tabl Section */
+/* End News and Blog Section */
